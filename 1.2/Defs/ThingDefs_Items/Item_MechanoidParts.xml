@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase" Name="MechadroidPartsBase">
+		<defName>O21_MechanoidParts</defName>
+		<label>mechanoid parts</label>
+		<description>Miscellanous mechanoid parts, adhesives, solder, welding resources and metal plates for repairing or building mechadroids.</description>
+		<graphicData>
+			<texPath>Mechadroids/Item/MechanoidParts</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Mass>0.5</Mass>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<!-- recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<effectWorking>Cook</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<workAmount>300</workAmount>
+			<productCount>3</productCount>
+			<workSkill>Crafting</workSkill>
+			<recipeUsers>
+				<li>O21_OuterRim_DroidCompFabricator</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>6</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList -->
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<modExtensions>
+			<li Class="O21Toolbox.ArtificialPawn.DefModExtension_RepairPartsProps"/>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>
