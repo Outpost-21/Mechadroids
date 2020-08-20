@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>O21_Mechadroids</defName>
+		<label>Mechadroids</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef>
+		<defName>O21_Mechanoids_Parts</defName>
+		<label>Mechanoid Parts</label>
+		<description>Fabricate mechanoid components, used to repair and craft mechanoids and mechadroids.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>O21_Mechanoids_PowerCells</defName>
+		<label>Mechadroid Power Cells</label>
+		<description>Fabricate mechadroid power cells, used as a power source for mechadroids when no other is accessible or to feed energy into downed mechadroids.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>O21_Mechanoids_RepairKits</defName>
+		<label>Mechadroid Repair Kits</label>
+		<description>Fabricate mechadroid repair kits, used to fully repair mechadroids as a surgery option.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>O21_Mechadroids_Alphas</defName>
+		<tab>O21_Mechadroids</tab>
+		<label>Mechadroids: Alphas</label>
+		<description>Fabricate advanced robots from salvaged mechanoid materials. Alphas are a baseline for the units with no particular specialisation.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>O21_Mechadroids_Gammas</defName>
+		<tab>O21_Mechadroids</tab>
+		<label>Mechadroids: Gammas</label>
+		<description>Fabricate advanced robots from salvaged mechanoid materials. Gammas are a less intelligent but stronger variant.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Mechadroids_Alphas</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>O21_Mechadroids_Deltas</defName>
+		<tab>O21_Mechadroids</tab>
+		<label>Mechadroids: Deltas</label>
+		<description>Fabricate advanced robots from salvaged mechanoid materials. Deltas are weaker but more intelligent variants.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>O21_Mechadroids_Alphas</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

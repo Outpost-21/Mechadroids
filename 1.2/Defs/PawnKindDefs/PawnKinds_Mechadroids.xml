@@ -2,7 +2,7 @@
 <Defs>
 
 	<PawnKindDef Name="O21_MechadroidSettlerBase" Abstract="True">
-		<race>O21_Alien_MechadroidXOne</race>
+		<race>O21_Alien_MechadroidAlpha</race>
 		<defaultFactionType>O21_MechadroidCivil</defaultFactionType>
 		<chemicalAddictionChance>0.0</chemicalAddictionChance>
 		<backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
@@ -16,7 +16,7 @@
 	<PawnKindDef ParentName="O21_MechadroidSettlerBase">
 		<defName>O21_Mechadroid_Villager</defName>
 		<label>mechadroid villager</label>
-		<combatPower>35</combatPower>
+		<combatPower>120</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
 		<gearHealthRange>0.2~2.0</gearHealthRange>
@@ -39,7 +39,8 @@
 	<PawnKindDef ParentName="O21_MechadroidSettlerBase">
 		<defName>O21_Mechadroid_Guard</defName>
 		<label>mechadroid guard</label>
-		<combatPower>55</combatPower>
+		<race>O21_Alien_MechadroidDelta</race>
+		<combatPower>250</combatPower>
 		<isFighter>true</isFighter>
 		<gearHealthRange>0.6~2</gearHealthRange>
 		<apparelTags>
@@ -65,7 +66,7 @@
 		<defName>O21_Mechadroid_Trader</defName>
 		<label>mechadroid trader</label>
 		<trader>true</trader>
-		<combatPower>40</combatPower>
+		<combatPower>100</combatPower>
 		<isFighter>false</isFighter>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Normal</itemQuality>
@@ -96,7 +97,8 @@
 		<defName>O21_Mechadroid_Primus</defName>
 		<label>mechadroid primus</label>
 		<labelPlural>mechadroid primus</labelPlural>
-		<combatPower>40</combatPower>
+		<race>O21_Alien_MechadroidGamma</race>
+		<combatPower>80</combatPower>
 		<factionLeader>true</factionLeader>
 		<minGenerationAge>30</minGenerationAge>
 		<isFighter>false</isFighter>

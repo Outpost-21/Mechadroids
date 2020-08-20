@@ -6,7 +6,7 @@
 		<label>Mechadroids</label>
 		<description>A colony of recently-arrived mechadroids.</description>
 		<isPlayer>true</isPlayer>
-		<basicMemberKind>O21_MechadroidColonist</basicMemberKind>
+		<basicMemberKind>O21_MechadroidAlphaColonist</basicMemberKind>
 		<pawnSingular>colonist</pawnSingular>
 		<pawnsPlural>colonists</pawnsPlural>
 		<techLevel>Spacer</techLevel>

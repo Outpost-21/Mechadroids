@@ -84,6 +84,9 @@
 					<li>
                         <defName>Brawler</defName>
                     </li>
+					<li>
+                        <defName>Gay</defName>
+                    </li>
 				</disallowedTraits>
 				<alienPartGenerator>
 					<useGenderedHeads>false</useGenderedHeads>
@@ -186,7 +189,7 @@
             <nameGenerator>O21_NameGenerator_Mechadroid</nameGenerator>
 			<useMeatFrom>Human</useMeatFrom>
 			<foodType>None</foodType>
-			<needsRest>true</needsRest>
+			<needsRest>false</needsRest>
             <hasGenders>false</hasGenders>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<canBePredatorPrey>false</canBePredatorPrey>
@@ -229,8 +232,8 @@
 			</hediffGiverSets>
 		</race>
 		<recipes>
-			<!-- li>O21_OuterRim_ShutDownDroid</li>
-			<li>O21_OuterRim_DroidRepairKit</li -->
+			<!-- li>O21_ShutDownMechadroid</li -->
+			<li>O21_MechanoidRepairKit</li>
 		</recipes>
 		<modExtensions>
 			<li Class="O21Toolbox.Needs.EnergyHediffs">
@@ -243,7 +246,6 @@
 				<canSocialize>true</canSocialize>
 				<needJoy>true</needJoy>
 				<needBeauty>true</needBeauty>
-				<needRest>true</needRest>
 				<colonyCaresIfDead>false</colonyCaresIfDead>
 				<repairParts>
 					<li>O21_MechanoidParts</li>
