@@ -42,6 +42,9 @@
 			</graphicPaths>
 		</alienRace>
 		<statBases>
+			<WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+			<MoveSpeed>4.0</MoveSpeed>
+			<MiningSpeed>1.4</MiningSpeed>
 		</statBases>
 		<tools>
 			<li>

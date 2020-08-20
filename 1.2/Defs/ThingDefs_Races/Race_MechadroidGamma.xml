@@ -42,6 +42,11 @@
 			</graphicPaths>
 		</alienRace>
 		<statBases>
+			<GlobalLearningFactor>1.2</GlobalLearningFactor>
+			<NegotiationAbility>1.2</NegotiationAbility>
+			<TradePriceImprovement>1.2</TradePriceImprovement>
+			<WorkSpeedGlobal>0.9</WorkSpeedGlobal>
+			<MiningSpeed>0.8</MiningSpeed>
 		</statBases>
 		<tools>
 			<li>
