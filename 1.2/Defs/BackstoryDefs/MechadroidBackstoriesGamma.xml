@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryGammaChild00</defName>
+		<title>Manufactured Gamma</title>
+		<titleShort>Manufactured Gamma</titleShort>
+		<baseDescription>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. Gammas are capable of any task, though they aren't really good at anything.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<workDisables>
+            <li>Violent</li>
+            <li>Animals</li>
+            <li>Mining</li>
+    	</workDisables>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryGammaChild01</defName>
+		<title>Perfect Gamma</title>
+		<titleShort>Perfect Gamma</titleShort>
+		<baseDescription>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. This Gamma came out even better than in the blueprint, still not particularly great in any specific way though.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<workDisables>
+            <li>Violent</li>
+            <li>Animals</li>
+            <li>Mining</li>
+    	</workDisables>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryGammaChild02</defName>
+		<title>Faulty Gamma</title>
+		<titleShort>Faulty Gamma</titleShort>
+		<baseDescription>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. This Gamma came out a slight bit faulty so their skills have been skewed here and there.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<workDisables>
+            <li>Violent</li>
+            <li>Animals</li>
+            <li>Mining</li>
+    	</workDisables>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryGammaAdult00</defName>
+		<title>Gamma Farmer</title>
+		<titleShort>Farmer</titleShort>
+		<baseDescription>Through their life this Gamma has gained some skills to help them farm better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryGammaAdult01</defName>
+		<title>Gamma Crafter</title>
+		<titleShort>Crafter</titleShort>
+		<baseDescription>Through their life this Gamma has gained some skills to help them craft better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+            <li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryGammaAdult02</defName>
+		<title>Gamma Scientist</title>
+		<titleShort>Scientist</titleShort>
+		<baseDescription>Through their life this Gamma has gained some skills to help them research better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryGammaAdult03</defName>
+		<title>Gamma Cook</title>
+		<titleShort>Cook</titleShort>
+		<baseDescription>Through their life this Gamma has gained some skills to help them cook better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+</Defs>

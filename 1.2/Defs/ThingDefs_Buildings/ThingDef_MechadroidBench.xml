@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="BenchBase">
-		<defName>O21_Mechadroid_Workbench</defName>
-		<label>mechadroid workbench</label>
-		<description>A work station for assembling mechadroids and mechadroid related things, or breaking down dead mechadroids.</description>
+		<defName>O21_Mechanoid_Workbench</defName>
+		<label>mechanoid workbench</label>
+		<description>A work station for assembling mechanoids/mechadroids and mechanoid related things, or breaking down dead mechadroids.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Mechadroids/Building/MechadroidBench</texPath>
@@ -35,7 +35,9 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
+            <li>ButcherCorpseMechanoid</li>
 			<li>O21_ButcherCorpseMechadroid</li>
+			<li>O21_Mech_ChargePowerCells</li>
 			<li>O21_Make_MechadroidAlpha</li>
 			<li>O21_Make_MechadroidGamma</li>
 			<li>O21_Make_MechadroidDelta</li>
@@ -75,13 +77,13 @@
 	</ThingDef>
 
     <WorkGiverDef>
-        <defName>O21_Mechadroids_DoWorkAtMechadroidBench</defName>
+        <defName>O21_Mechanoids_DoWorkAtMechanoidBench</defName>
         <label>make things at matter replicator</label>
         <giverClass>WorkGiver_DoBill</giverClass>
         <workType>Crafting</workType>
         <priorityInType>100</priorityInType>
         <fixedBillGiverDefs>
-            <li>O21_Mechadroid_Workbench</li>
+            <li>O21_Mechanoid_Workbench</li>
         </fixedBillGiverDefs>
         <verb>replicate</verb>
         <gerund>replicating at</gerund>

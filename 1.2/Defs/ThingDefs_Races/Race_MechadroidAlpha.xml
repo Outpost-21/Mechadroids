@@ -4,7 +4,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="O21_BaseMechadroid" Name="O21_Alien_MechadroidAlpha">
 		<defName>O21_Alien_MechadroidAlpha</defName>
 		<label>Alpha-Series Mechadroid</label>
-		<description>The first in an experimental line of mechanoids designed by a colonist in the inner rim. They use parts of disassembled mechanoids and as such share many of the same strengths and weaknesses. They have since developed their own personalities, settlements and culture, creating more of their kind.</description>
+		<description>The first in an experimental line of mechadroids designed by a colonist in the inner rim. They use parts of disassembled mechanoids and as such share many of the same strengths and weaknesses. They have since developed their own personalities, settlements and culture, creating more of their kind.</description>
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>

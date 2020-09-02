@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="ResourceBase" Name="MechadroidPartsBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>O21_MechanoidParts</defName>
 		<label>mechanoid parts</label>
 		<description>Miscellanous mechanoid parts, adhesives, solder, welding resources and metal plates for repairing or building mechanoid/mechadroids.</description>
@@ -24,7 +24,7 @@
 			<workSkill>Crafting</workSkill>
 			<recipeUsers>
 				<li>FabricationBench</li>
-				<li>O21_Mechadroid_Workbench</li>
+				<li>O21_Mechanoid_Workbench</li>
 			</recipeUsers>
             <researchPrerequisite>O21_Mechanoids_Parts</researchPrerequisite>
 		</recipeMaker>

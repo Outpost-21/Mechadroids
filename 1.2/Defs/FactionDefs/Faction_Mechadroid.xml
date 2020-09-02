@@ -12,7 +12,7 @@
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>primus</leaderTitle>
-		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionIconPath>Mechadroids/World/Town</factionIconPath>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Industrial</techLevel>
@@ -28,6 +28,9 @@
 		<hairTags>
 			<li>Rural</li>
 		</hairTags>
+        <fixedLeaderKinds>
+            <li>O21_Mechadroid_Primus</li>
+        </fixedLeaderKinds>
 		<caravanTraderKinds>
 			<li>Caravan_Outlander_BulkGoods</li>
 			<li>Caravan_Outlander_CombatSupplier</li>
@@ -57,8 +60,7 @@
 				<kindDef>Combat</kindDef>
 				<options>
 					<O21_Mechadroid_Villager>5</O21_Mechadroid_Villager>
-					<O21_Mechadroid_Guard>40</O21_Mechadroid_Guard>
-					<O21_Mechadroid_Primus>10</O21_Mechadroid_Primus>
+					<O21_Mechadroid_Guard>50</O21_Mechadroid_Guard>
 				</options>
 			</li>
 			<li>
@@ -134,7 +136,7 @@
 			<li>(0.00, 0.30, 0.70)</li>
 			<li>(0.00, 0.40, 1.00)</li>
 		</colorSpectrum>
-		<factionIconPath>World/WorldObjects/Expanding/TownRough</factionIconPath>
+		<factionIconPath>Mechadroids/World/TownRough</factionIconPath>
 		<startingGoodwill>-80</startingGoodwill>
 		<naturalColonyGoodwill>-100~-80</naturalColonyGoodwill>
 	</FactionDef>

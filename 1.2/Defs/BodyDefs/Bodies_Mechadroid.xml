@@ -77,6 +77,7 @@
 									<def>SmellSensor</def>
 									<coverage>0.10</coverage>
                                     <groups>
+                                        <li>Teeth</li>
                                         <li>FullHead</li>
                                     </groups>
 								</li>
@@ -105,6 +106,7 @@
 											<customLabel>left pinky</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
+                                                <li>Hands</li>
 												<li>LeftHand</li>
 											</groups>
 										</li>
@@ -113,6 +115,7 @@
 											<customLabel>left middle finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
+                                                <li>Hands</li>
 												<li>LeftHand</li>
 												<li>MiddleFingers</li>
 											</groups>
@@ -122,6 +125,7 @@
 											<customLabel>left index finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
+                                                <li>Hands</li>
 												<li>LeftHand</li>
 											</groups>
 										</li>
@@ -130,6 +134,7 @@
 											<customLabel>left thumb</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
+                                                <li>Hands</li>
 												<li>LeftHand</li>
 											</groups>
 										</li>
@@ -160,6 +165,7 @@
 											<customLabel>right pinky</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
+                                                <li>Hands</li>
 												<li>RightHand</li>
 											</groups>
 										</li>
@@ -168,6 +174,7 @@
 											<customLabel>right middle finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
+                                                <li>Hands</li>
 												<li>RightHand</li>
 												<li>MiddleFingers</li>
 											</groups>
@@ -177,6 +184,7 @@
 											<customLabel>right index finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
+                                                <li>Hands</li>
 												<li>RightHand</li>
 											</groups>
 										</li>
@@ -185,6 +193,7 @@
 											<customLabel>right thumb</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
+                                                <li>Hands</li>
 												<li>RightHand</li>
 											</groups>
 										</li>
@@ -199,11 +208,17 @@
 					<customLabel>left leg</customLabel>
 					<coverage>0.2</coverage>
 					<height>Bottom</height>
+                    <groups>
+                        <li>Legs</li>
+                    </groups>
 					<parts>
 						<li>
 							<def>MechanicalFoot</def>
 							<customLabel>left foot</customLabel>
-							<coverage>0.2</coverage>
+							<coverage>0.2</coverage>          
+                            <groups>
+                                <li>Feet</li>
+                            </groups>
 						</li>
 					</parts>
 				</li>
@@ -212,11 +227,17 @@
 					<customLabel>right leg</customLabel>
 					<coverage>0.2</coverage>
 					<height>Bottom</height>
+                    <groups>
+                        <li>Legs</li>
+                    </groups>
 					<parts>
 						<li>
 							<def>MechanicalFoot</def>
 							<customLabel>right foot</customLabel>
 							<coverage>0.2</coverage>
+                            <groups>
+                                <li>Feet</li>
+                            </groups>
 						</li>
 					</parts>
 				</li>

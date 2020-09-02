@@ -4,7 +4,7 @@
     <ThoughtDef>
         <defName>O21_NullThought</defName>
         <showBubble>false</showBubble>
-        <durationDays>0.0001</durationDays>
+        <durationDays>0.00001</durationDays>
         <stackLimit>1</stackLimit>
         <stackedEffectMultiplier>1</stackedEffectMultiplier>
         <stages>

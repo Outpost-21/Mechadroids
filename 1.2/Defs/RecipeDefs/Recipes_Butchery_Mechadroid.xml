@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-	<RecipeDef Name="O21_OR_DroidDisassemblyRecipe">
+	<RecipeDef>
 		<defName>O21_ButcherCorpseMechadroid</defName>
 		<label>shred mechadroid</label>
         <description>Shred a dead mechadroid to try to salvage usable material.</description>

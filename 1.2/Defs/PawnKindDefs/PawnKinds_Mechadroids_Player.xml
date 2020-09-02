@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<PawnKindDef Abstract="True" Name="BasePlayerPawnKind">
-	</PawnKindDef>
-
 	<PawnKindDef ParentName="BasePlayerPawnKind">
 		<defName>O21_MechadroidAlphaColonist</defName>
 		<label>colonist</label>
@@ -12,6 +9,13 @@
 		<race>O21_Alien_MechadroidAlpha</race>
 		<combatPower>30</combatPower>
 		<isFighter>false</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidAlpha</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<apparelTags>
@@ -37,6 +41,13 @@
 		<race>O21_Alien_MechadroidGamma</race>
 		<combatPower>30</combatPower>
 		<isFighter>false</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidGamma</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<apparelTags>
@@ -62,6 +73,13 @@
 		<race>O21_Alien_MechadroidDelta</race>
 		<combatPower>30</combatPower>
 		<isFighter>false</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidDelta</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<apparelTags>

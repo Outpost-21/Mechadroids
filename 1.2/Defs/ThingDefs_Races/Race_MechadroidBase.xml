@@ -87,6 +87,12 @@
 					<li>
                         <defName>Gay</defName>
                     </li>
+					<li>
+                        <defName>Bisexual</defName>
+                    </li>
+					<li>
+                        <defName>Asexual</defName>
+                    </li>
 				</disallowedTraits>
 				<alienPartGenerator>
 					<useGenderedHeads>false</useGenderedHeads>
@@ -150,7 +156,7 @@
 				</cannotReceiveThoughts>
                 <butcherThoughtGeneral>
                     <thought>O21_NullThought</thought>
-                    <knowThought>O21_NullThought</knowThought>
+                    <knowThought>O21_NullThought</knowThought> 
                 </butcherThoughtGeneral>
 			</thoughtSettings>
 			<raceRestriction>
@@ -244,7 +250,7 @@
 			<li Class="O21Toolbox.Needs.ArtificialPawnProperties">
 				<noSkillLoss>true</noSkillLoss>
 				<canSocialize>true</canSocialize>
-				<needJoy>true</needJoy>
+				<needJoy>false</needJoy>
 				<needBeauty>true</needBeauty>
 				<colonyCaresIfDead>false</colonyCaresIfDead>
 				<repairParts>

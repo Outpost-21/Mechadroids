@@ -19,6 +19,13 @@
 		<combatPower>120</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidAlpha</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<gearHealthRange>0.2~2.0</gearHealthRange>
 		<weaponTags>
 			<li>Gun</li>
@@ -42,6 +49,13 @@
 		<race>O21_Alien_MechadroidDelta</race>
 		<combatPower>250</combatPower>
 		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidDelta</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<gearHealthRange>0.6~2</gearHealthRange>
 		<apparelTags>
 			<li>IndustrialMilitaryBasic</li>
@@ -68,6 +82,13 @@
 		<trader>true</trader>
 		<combatPower>100</combatPower>
 		<isFighter>false</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidAlpha</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Normal</itemQuality>
 		<weaponTags>
@@ -100,8 +121,14 @@
 		<race>O21_Alien_MechadroidGamma</race>
 		<combatPower>80</combatPower>
 		<factionLeader>true</factionLeader>
-		<minGenerationAge>30</minGenerationAge>
 		<isFighter>false</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidGamma</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Good</itemQuality>
 		<weaponMoney>200~200</weaponMoney>

@@ -21,5 +21,8 @@ namespace O21Mechadroids
         public static ThingDef O21_MechanoidParts;
         public static ThingDef O21_MechanoidPowerCell;
         public static ThingDef O21_MechanoidRepairKit;
+
+        public static FactionDef O21_MechadroidCivil;
+        public static FactionDef O21_MechadroidRough;
     }
 }

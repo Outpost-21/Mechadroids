@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryAlphaChild00</defName>
+		<title>Manufactured Alpha</title>
+		<titleShort>Manufactured Alpha</titleShort>
+		<baseDescription>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. Alphas are capable of any task, though they aren't really good at anything.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidAlpha</li>
+		</spawnCategories>
+		<workDisables>
+    	</workDisables>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryAlphaChild01</defName>
+		<title>Perfect Alpha</title>
+		<titleShort>Perfect Alpha</titleShort>
+		<baseDescription>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. This alpha came out even better than in the blueprint, still not particularly great in any specific way though.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidAlpha</li>
+		</spawnCategories>
+		<workDisables>
+    	</workDisables>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryAlphaChild02</defName>
+		<title>Faulty Alpha</title>
+		<titleShort>Faulty Alpha</titleShort>
+		<baseDescription>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. This Alpha came out a slight bit faulty so their skills have been skewed here and there.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidAlpha</li>
+		</spawnCategories>
+		<workDisables>
+    	</workDisables>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryAlphaAdult00</defName>
+		<title>Alpha Farmer</title>
+		<titleShort>Farmer</titleShort>
+		<baseDescription>Through their life this Alpha has gained some skills to help them farm better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidAlpha</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryAlphaAdult01</defName>
+		<title>Alpha Warrior</title>
+		<titleShort>Warrior</titleShort>
+		<baseDescription>Through their life this Alpha has gained some skills to help them fight better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidAlpha</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryAlphaAdult02</defName>
+		<title>Alpha Ranger</title>
+		<titleShort>Ranger</titleShort>
+		<baseDescription>Through their life this Alpha has gained some skills to help them shoot better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidAlpha</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryAlphaAdult03</defName>
+		<title>Alpha Crafter</title>
+		<titleShort>Crafter</titleShort>
+		<baseDescription>Through their life this Alpha has gained some skills to help them craft better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidAlpha</li>
+		</spawnCategories>
+		<skillGains>
+            <li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryAlphaAdult04</defName>
+		<title>Alpha Builder</title>
+		<titleShort>Builder</titleShort>
+		<baseDescription>Through their life this Alpha has gained some skills to help them build better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidAlpha</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+</Defs>

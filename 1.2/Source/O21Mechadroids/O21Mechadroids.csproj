@@ -60,6 +60,8 @@
   <ItemGroup>
     <Compile Include="HarmonyPatches.cs" />
     <Compile Include="MechadroidsDefOf.cs" />
+    <Compile Include="MechadroidsMod.cs" />
+    <Compile Include="MechadroidsStartup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

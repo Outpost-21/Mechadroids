@@ -3,8 +3,8 @@
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>O21_MechanoidPowerCell</defName>
-		<label>mechanoid power cell</label>
-		<description>Consumable cells of energy used by mechanoids and mechadroids to recharge.</description>
+		<label>mechanoid power cell (charged)</label>
+		<description>Consumable cells of energy used by mechanoids and mechadroids to recharge. Charged and ready to be used.</description>
 		<graphicData>
 			<texPath>Mechadroids/Item/PowerCell</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -15,7 +15,6 @@
 			<Mass>0.025</Mass>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Flammability>0.3</Flammability>
-			<DeteriorationRate>2.0</DeteriorationRate>
 		</statBases>
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -27,7 +26,7 @@
 			<workSkill>Crafting</workSkill>
 			<recipeUsers>
 				<li>FabricationBench</li>
-				<li>O21_Mechadroid_Workbench</li>
+				<li>O21_Mechanoid_Workbench</li>
 			</recipeUsers>
             <researchPrerequisite>O21_Mechanoids_PowerCells</researchPrerequisite>
 		</recipeMaker>
@@ -41,6 +40,30 @@
 				<energyWhenConsumed>0.70</energyWhenConsumed>
 			</li>
 		</comps>
+        <modExtensions>
+            <li Class="O21Toolbox.HarmonyPatches.DefModExt_OutputFromEdible">
+                <outputThing>O21_MechanoidPowerCell_Empty</outputThing>
+            </li>
+        </modExtensions>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>O21_MechanoidPowerCell_Empty</defName>
+		<label>mechanoid power cell (depleted)</label>
+		<description>Consumable cells of energy used by mechanoids and mechadroids to recharge. This one appears to be dead, and can be charged in a charging station.</description>
+		<graphicData>
+			<texPath>Mechadroids/Item/PowerCell_Empty</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>0.025</Mass>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+		</statBases>
 		<thingCategories>
 			<li>Manufactured</li>
 		</thingCategories>

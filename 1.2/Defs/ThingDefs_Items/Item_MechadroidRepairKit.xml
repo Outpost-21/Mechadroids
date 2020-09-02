@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="ResourceBase" Name="DroidRepairKitBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>O21_MechanoidRepairKit</defName>
 		<label>mechanoid repair kit</label>
 		<description>A repair kit containing the tools and materials, to fully restore a mechanoid/mechadroid to mint condition, from wear and tear to missing parts. Also refills coolant on the mechanoid/mechadroid.\n\nUsed as a operation.</description>
@@ -26,14 +26,14 @@
 			<workSkill>Crafting</workSkill>
 			<recipeUsers>
 				<li>FabricationBench</li>
-				<li>O21_Mechadroid_Workbench</li>
+				<li>O21_Mechanoid_Workbench</li>
 			</recipeUsers>
             <researchPrerequisite>O21_Mechanoids_RepairKits</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<Steel>10</Steel>
             <O21_MechanoidParts>10</O21_MechanoidParts>
-			<ComponentSpacer>4</ComponentSpacer>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<thingCategories>
 			<li>Manufactured</li>

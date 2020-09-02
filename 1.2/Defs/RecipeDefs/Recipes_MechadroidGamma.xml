@@ -68,7 +68,7 @@
 						<li>O21_MechanoidParts</li>
 					</thingDefs>
 				</filter>
-				<count>14</count>
+				<count>18</count>
 			</li>
 			<li>
 				<filter>
@@ -76,7 +76,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>6</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -84,7 +84,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>80</count>
+				<count>50</count>
 			</li>
 			<li>
 				<filter>
@@ -92,7 +92,7 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>220</count>
+				<count>180</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -120,14 +120,14 @@
 		<race>O21_Alien_MechadroidGamma</race>
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
-		<isFighter>true</isFighter>
+		<isFighter>false</isFighter>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>Offworld</li>
+					<li>MechadroidGamma</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>

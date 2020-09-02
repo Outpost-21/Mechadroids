@@ -84,7 +84,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>80</count>
 			</li>
 			<li>
 				<filter>
@@ -92,7 +92,7 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>180</count>
+				<count>220</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -127,7 +127,7 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>Offworld</li>
+					<li>MechadroidDelta</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
