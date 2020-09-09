@@ -45,9 +45,10 @@ namespace O21Mechadroids
                 yield return thing;
             }
 
-            float baseSpawnRateParts = pawn.BodySize * 12;
-            float baseSpawnRateCells = pawn.BodySize * 4;
-            float baseSpawnRateComponents = pawn.BodySize * 1;
+            float baseSpawnRateParts = pawn.BodySize * MechadroidsMod.mod.settings.baseSpawnRateParts;
+            float baseSpawnRateCells = pawn.BodySize * MechadroidsMod.mod.settings.baseSpawnRateCells;
+            float baseSpawnRateComponents = pawn.BodySize * MechadroidsMod.mod.settings.baseSpawnRateComponents;
+            float personaCoreChance = ((float)MechadroidsMod.mod.settings.baseSpawnChancePersonaCore / 100f);
 
             int partsCount = GenMath.RoundRandom((float)baseSpawnRateParts * efficiency);
             if (partsCount > 0)
@@ -70,7 +71,7 @@ namespace O21Mechadroids
                 components.stackCount = componentCount;
                 yield return components;
             }
-            if (UnityEngine.Random.Range(0f, 1f) >= 0.92f)
+            if (UnityEngine.Random.Range(0f, 1f) <= personaCoreChance)
             {
                 Thing personaCore = ThingMaker.MakeThing(ThingDefOf.AIPersonaCore, null);
                 yield return personaCore;
