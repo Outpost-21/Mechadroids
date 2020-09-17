@@ -166,6 +166,11 @@
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
 			</raceRestriction>
+            <compatibility>
+                <isFlesh>False</isFlesh>
+                <isSentient>True</isSentient>
+                <hasBlood>False</hasBlood>
+            </compatibility>
 		</alienRace>
 		<statBases>
             <MoveSpeed>4.7</MoveSpeed>
