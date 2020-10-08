@@ -55,7 +55,7 @@
 		<label>mechanoid power cell (depleted)</label>
 		<description>Consumable cells of energy used by mechanoids and mechadroids to recharge. This one appears to be dead, and can be charged in a charging station.</description>
 		<graphicData>
-			<texPath>Mechadroids/Item/PowerCell_Empty</texPath>
+			<texPath>Mechadroids/Item/EmptyPowerCell</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
