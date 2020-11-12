@@ -42,6 +42,7 @@
 			</graphicPaths>
 		</alienRace>
 		<statBases>
+			<MarketValue>1750</MarketValue>
 		</statBases>
 		<tools>
 			<li>

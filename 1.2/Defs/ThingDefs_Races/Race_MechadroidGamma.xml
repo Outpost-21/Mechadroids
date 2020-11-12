@@ -42,6 +42,7 @@
 			</graphicPaths>
 		</alienRace>
 		<statBases>
+			<MarketValue>2000</MarketValue>
 			<GlobalLearningFactor>1.4</GlobalLearningFactor>
 			<NegotiationAbility>1.2</NegotiationAbility>
 			<TradePriceImprovement>1.2</TradePriceImprovement>

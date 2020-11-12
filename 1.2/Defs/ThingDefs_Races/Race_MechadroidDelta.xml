@@ -42,6 +42,7 @@
 			</graphicPaths>
 		</alienRace>
 		<statBases>
+			<MarketValue>2000</MarketValue>
 			<WorkSpeedGlobal>1.2</WorkSpeedGlobal>
 			<MoveSpeed>4.0</MoveSpeed>
 		</statBases>
