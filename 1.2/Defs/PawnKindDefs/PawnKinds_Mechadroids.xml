@@ -11,6 +11,19 @@
 			<li>IndustrialBasic</li>
 			<li>IndustrialAdvanced</li>
 		</apparelTags>
+		<inventoryOptions>
+			<skipChance>0.3</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>O21_MechanoidPowerCell</thingDef>
+					<countRange>1~2</countRange>
+				</li>
+				<li>
+					<thingDef>O21_MechanoidPowerCell_Empty</thingDef>
+					<countRange>1~4</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="O21_MechadroidSettlerBase">

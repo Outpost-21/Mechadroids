@@ -102,6 +102,7 @@
 		<butcherProducts>
 			<Plasteel>40</Plasteel>
 			<O21_MechanoidParts>12</O21_MechanoidParts>
+			<O21_MechanoidPowerCell>3</O21_MechanoidPowerCell>
 			<ComponentSpacer>6</ComponentSpacer>
 		</butcherProducts>
 	</AlienRace.ThingDef_AlienRace>
