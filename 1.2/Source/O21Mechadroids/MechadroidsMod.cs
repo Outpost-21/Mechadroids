@@ -66,6 +66,10 @@ namespace O21Mechadroids
         public override void ExposeData()
         {
             base.ExposeData();
+            Scribe_Values.Look(ref baseSpawnRateParts, "baseSpawnRateParts", 12);
+            Scribe_Values.Look(ref baseSpawnRateCells, "baseSpawnRateCells", 4);
+            Scribe_Values.Look(ref baseSpawnRateComponents, "baseSpawnRateComponents", 1);
+            Scribe_Values.Look(ref baseSpawnChancePersonaCore, "baseSpawnChancePersonaCore", 7);
             Scribe_Values.Look(ref faction_mechadroidsCivil, "faction_mechadroidsCivil", true);
             Scribe_Values.Look(ref faction_mechadroidsRough, "faction_mechadroidsRough", true);
         }
