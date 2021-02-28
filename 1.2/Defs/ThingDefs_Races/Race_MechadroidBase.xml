@@ -10,89 +10,122 @@
 		</comps>
 		<alienRace>
 			<generalSettings>
-                <allowHumanBios>false</allowHumanBios>
+				<allowHumanBios>false</allowHumanBios>
 				<maleGenderProbability>0.5</maleGenderProbability>
 				<immuneToAge>true</immuneToAge>
 				<humanRecipeImport>false</humanRecipeImport>
 				<forcedRaceTraitEntries />
 				<chemicalSettings />
-				<factionRelations />	
+				<factionRelations />
 				<notXenophobistTowards />
 				<immuneToXenophobia>true</immuneToXenophobia>
-                <minAgeForAdulthood>3</minAgeForAdulthood>
+				<minAgeForAdulthood>3</minAgeForAdulthood>
 				<disallowedTraits>
 					<li>
-                        <defName>DrugDesire</defName>
-                    </li>
+						<defName>DrugDesire</defName>
+					</li>
 					<li>
-                        <defName>NaturalMood</defName>
-                    </li>
+						<defName>NaturalMood</defName>
+					</li>
 					<li>
-                        <defName>Nerves</defName>
-                    </li>
+						<defName>Nerves</defName>
+					</li>
 					<li>
-                        <defName>Neurotic</defName>
-                    </li>
+						<defName>Neurotic</defName>
+					</li>
 					<li>
-                        <defName>PsychicSensitivity</defName>
-                    </li>
+						<defName>PsychicSensitivity</defName>
+					</li>
 					<li>
-                        <defName>Cannibal</defName>
-                    </li>
+						<defName>Cannibal</defName>
+					</li>
 					<li>
-                        <defName>TooSmart</defName>
-                    </li>
+						<defName>TooSmart</defName>
+					</li>
 					<li>
-                        <defName>Transhumanist</defName>
-                    </li>
+						<defName>Transhumanist</defName>
+					</li>
 					<li>
-                        <defName>BodyPurist</defName>
-                    </li>
+						<defName>BodyPurist</defName>
+					</li>
 					<li>
-                        <defName>Greedy</defName>
-                    </li>
+						<defName>Greedy</defName>
+					</li>
 					<li>
-                        <defName>Jealous</defName>
-                    </li>
+						<defName>Jealous</defName>
+					</li>
 					<li>
-                        <defName>Nudist</defName>
-                    </li>
+						<defName>Nudist</defName>
+					</li>
 					<li>
-                        <defName>DislikesMen</defName>
-                    </li>
+						<defName>DislikesMen</defName>
+					</li>
 					<li>
-                        <defName>DislikesWomen</defName>
-                    </li>
+						<defName>DislikesWomen</defName>
+					</li>
 					<li>
-                        <defName>AnnoyingVoice</defName>
-                    </li>
+						<defName>AnnoyingVoice</defName>
+					</li>
 					<li>
-                        <defName>CreepyBreathing</defName>
-                    </li>
+						<defName>CreepyBreathing</defName>
+					</li>
 					<li>
-                        <defName>Pyromaniac</defName>
-                    </li>
+						<defName>Pyromaniac</defName>
+					</li>
 					<li>
-                        <defName>Wimp</defName>
-                    </li>
+						<defName>Wimp</defName>
+					</li>
 					<li>
-                        <defName>Gourmand</defName>
-                    </li>
+						<defName>Gourmand</defName>
+					</li>
 					<li>
-                        <defName>Xenophobia</defName>
-                    </li>
+						<defName>Xenophobia</defName>
+					</li>
 					<li>
-                        <defName>Brawler</defName>
-                    </li>
+						<defName>Brawler</defName>
+					</li>
 					<li>
-                        <defName>Gay</defName>
-                    </li>
+						<defName>Gay</defName>
+					</li>
 					<li>
-                        <defName>Bisexual</defName>
-                    </li>
+						<defName>Bisexual</defName>
+					</li>
 					<li>
-                        <defName>Asexual</defName>
-                    </li>
+						<defName>Asexual</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_IronStomach</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_BigBoned</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_Technophobe</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_Squeamish</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_DrunkenMaster</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_Stoner</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_Lush</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_RefinedPalate</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_Gastronomist</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_ThickSkinned</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_ThinSkinned</defName>
+					</li>
 				</disallowedTraits>
 				<alienPartGenerator>
 					<useGenderedHeads>false</useGenderedHeads>
@@ -152,10 +185,10 @@
 					<li>PawnWithGoodOpinionDied</li>
 					<li>ProsthophileNoProsthetic</li>
 				</cannotReceiveThoughts>
-                <butcherThoughtGeneral>
-                    <thought>O21_NullThought</thought>
-                    <knowThought>O21_NullThought</knowThought> 
-                </butcherThoughtGeneral>
+				<butcherThoughtGeneral>
+					<thought>O21_NullThought</thought>
+					<knowThought>O21_NullThought</knowThought>
+				</butcherThoughtGeneral>
 			</thoughtSettings>
 			<raceRestriction>
 				<apparelList>
@@ -164,14 +197,14 @@
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
 			</raceRestriction>
-            <compatibility>
-                <isFlesh>False</isFlesh>
-                <isSentient>True</isSentient>
-                <hasBlood>False</hasBlood>
-            </compatibility>
+			<compatibility>
+				<isFlesh>False</isFlesh>
+				<isSentient>True</isSentient>
+				<hasBlood>False</hasBlood>
+			</compatibility>
 		</alienRace>
 		<statBases>
-            <MoveSpeed>4.7</MoveSpeed>
+			<MoveSpeed>4.7</MoveSpeed>
 			<Flammability>0</Flammability>
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>
@@ -179,10 +212,10 @@
 			<MeatAmount>0</MeatAmount>
 			<PsychicSensitivity>0.5</PsychicSensitivity>
 			<ToxicSensitivity>0.0</ToxicSensitivity>
-            <ArmorRating_Heat>2.00</ArmorRating_Heat>
-            <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-            <RestRateMultiplier>2.0</RestRateMultiplier>
+			<ArmorRating_Heat>2.00</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+			<RestRateMultiplier>2.0</RestRateMultiplier>
 			<ImmunityGainSpeed>10</ImmunityGainSpeed>
 		</statBases>
 		<race>
@@ -195,11 +228,11 @@
 			<leatherDef>Leather_Human</leatherDef>
 			<bloodDef>Filth_MachineBits</bloodDef>
 			<body>O21_Mechadroid</body>
-            <nameGenerator>O21_NameGenerator_Mechadroid</nameGenerator>
+			<nameGenerator>O21_NameGenerator_Mechadroid</nameGenerator>
 			<useMeatFrom>Human</useMeatFrom>
 			<foodType>None</foodType>
 			<needsRest>false</needsRest>
-            <hasGenders>false</hasGenders>
+			<hasGenders>false</hasGenders>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<litterSizeCurve>
@@ -213,10 +246,10 @@
 			<lifeStageAges>
 				<li>
 					<def>O21_EternalMechadroidStage</def>
-                    <minAge>0</minAge>
-                    <soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
-                    <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
-                    <soundCall>Pawn_Mech_Scyther_Call</soundCall>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+					<soundCall>Pawn_Mech_Scyther_Call</soundCall>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
@@ -263,5 +296,5 @@
 			<li Class="O21Toolbox.HarmonyPatches.DefModExt_SpaceCapable" />
 		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
-	
+
 </Defs>
