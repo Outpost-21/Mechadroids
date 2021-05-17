@@ -191,11 +191,8 @@
 				</butcherThoughtGeneral>
 			</thoughtSettings>
 			<raceRestriction>
-				<apparelList>
-				</apparelList>
-				<whiteApparelList>
-				</whiteApparelList>
-				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+				<foodList />
+				<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
 			</raceRestriction>
 			<compatibility>
 				<isFlesh>False</isFlesh>
@@ -230,7 +227,7 @@
 			<body>O21_Mechadroid</body>
 			<nameGenerator>O21_NameGenerator_Mechadroid</nameGenerator>
 			<useMeatFrom>Human</useMeatFrom>
-			<foodType>None</foodType>
+			<foodType>OmnivoreHuman</foodType>
 			<needsRest>false</needsRest>
 			<hasGenders>false</hasGenders>
 			<gestationPeriodDays>45</gestationPeriodDays>
@@ -278,6 +275,11 @@
 			<li>O21_MechanoidRepairKit</li>
 		</recipes>
 		<modExtensions>
+			<li Class="O21Toolbox.SimpleNeeds.DefModExt_FoodNeedAdjuster">
+				<newLabel>Illogical Thoughts</newLabel>
+				<disableFoodNeed>true</disableFoodNeed>
+				<malnutritionReplacer>O21_LowEnergy</malnutritionReplacer>
+			</li>
 			<li Class="O21Toolbox.Needs.EnergyHediffs">
 				<coolantLoss>O21_CoolantLoss</coolantLoss>
 				<powerShortage>O21_EnergyShortage</powerShortage>
@@ -286,9 +288,10 @@
 			<li Class="O21Toolbox.Needs.ArtificialPawnProperties">
 				<noSkillLoss>true</noSkillLoss>
 				<canSocialize>true</canSocialize>
-				<needJoy>false</needJoy>
-				<needBeauty>true</needBeauty>
 				<colonyCaresIfDead>false</colonyCaresIfDead>
+                <tweakCorpseRot>True</tweakCorpseRot>
+                <corpseEdible>False</corpseEdible>
+				<affectedByEMP>True</affectedByEMP>
 				<repairParts>
 					<li>O21_MechanoidParts</li>
 				</repairParts>
