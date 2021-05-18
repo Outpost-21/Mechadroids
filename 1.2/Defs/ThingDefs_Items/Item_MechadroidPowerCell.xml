@@ -15,7 +15,17 @@
 			<Mass>0.025</Mass>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Flammability>0.3</Flammability>
+			<Nutrition>1</Nutrition>
 		</statBases>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<preferability>MealLavish</preferability>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+		</ingestible>
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<effectWorking>Cook</effectWorking>
@@ -37,7 +47,7 @@
 		<comps>
 			<li Class="O21Toolbox.Needs.CompProperties_EnergySource">
 				<isConsumable>true</isConsumable>
-				<energyWhenConsumed>0.70</energyWhenConsumed>
+				<energyWhenConsumed>0.80</energyWhenConsumed>
 			</li>
 		</comps>
         <modExtensions>

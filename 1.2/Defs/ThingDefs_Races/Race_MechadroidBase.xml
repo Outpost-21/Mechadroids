@@ -2,12 +2,6 @@
 <Defs>
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_BaseMechadroid" Abstract="True">
-		<comps>
-			<li Class="O21Toolbox.Needs.CompProperties_EnergyTracker">
-				<canHibernate>true</canHibernate>
-				<hibernationJob>O21Hibernate</hibernationJob>
-			</li>
-		</comps>
 		<alienRace>
 			<generalSettings>
 				<allowHumanBios>false</allowHumanBios>
@@ -191,7 +185,10 @@
 				</butcherThoughtGeneral>
 			</thoughtSettings>
 			<raceRestriction>
-				<foodList />
+				<foodList>
+					<li>O21_MechanoidPowerCell</li>
+					<li MayRequire="neronix17.outerrim.galaxies">O21_OR_DroidBattery_Full</li>
+				</foodList>
 				<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
 			</raceRestriction>
 			<compatibility>
@@ -275,16 +272,20 @@
 			<li>O21_MechanoidRepairKit</li>
 		</recipes>
 		<modExtensions>
+			<li Class="O21Toolbox.Hibernation.DefModExt_Hibernation">
+				<canHibernate>true</canHibernate>
+				<hibernationJob>O21Hibernate</hibernationJob>
+			</li>
 			<li Class="O21Toolbox.SimpleNeeds.DefModExt_FoodNeedAdjuster">
-				<newLabel>Illogical Thoughts</newLabel>
-				<disableFoodNeed>true</disableFoodNeed>
+				<newLabel>Energy</newLabel>
+				<disableFoodNeed>false</disableFoodNeed>
 				<malnutritionReplacer>O21_LowEnergy</malnutritionReplacer>
 			</li>
-			<li Class="O21Toolbox.Needs.EnergyHediffs">
+			<!-- <li Class="O21Toolbox.Needs.EnergyHediffs">
 				<coolantLoss>O21_CoolantLoss</coolantLoss>
 				<powerShortage>O21_EnergyShortage</powerShortage>
 				<powerFailure>O21_EnergyFailure</powerFailure>
-			</li>
+			</li> -->
 			<li Class="O21Toolbox.Needs.ArtificialPawnProperties">
 				<noSkillLoss>true</noSkillLoss>
 				<canSocialize>true</canSocialize>
