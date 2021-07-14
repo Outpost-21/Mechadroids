@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryDeltaChild00</defName>
+		<title>Manufactured Delta</title>
+		<titleShort>Manufactured Delta</titleShort>
+		<baseDescription>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. Deltas are specifically created for combat, and can perform some basic work tasks, but a side effect of this prevents them from doing anything more advanced.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidDelta</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Intellectual</li>
+        	<li>ManualSkilled</li>
+        	<li>Caring</li>
+    	</workDisables>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryDeltaChild01</defName>
+		<title>Perfect Delta</title>
+		<titleShort>Perfect Delta</titleShort>
+		<baseDescription>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. This Delta came out even better than in the blueprint, still not particularly great in any specific way though.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidDelta</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Intellectual</li>
+        	<li>ManualSkilled</li>
+        	<li>Caring</li>
+    	</workDisables>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryDeltaChild02</defName>
+		<title>Faulty Delta</title>
+		<titleShort>Faulty Delta</titleShort>
+		<baseDescription>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. This Delta came out a slight bit faulty so their skills have been skewed here and there.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidDelta</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Intellectual</li>
+        	<li>ManualSkilled</li>
+        	<li>Caring</li>
+    	</workDisables>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryDeltaAdult00</defName>
+		<title>Delta Warrior</title>
+		<titleShort>Warrior</titleShort>
+		<baseDescription>Through their life this Delta has gained some skills to help them fight better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidDelta</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryDeltaAdult01</defName>
+		<title>Delta Ranger</title>
+		<titleShort>Ranger</titleShort>
+		<baseDescription>Through their life this Delta has gained some skills to help them shoot better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidDelta</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>BackstoryDeltaAdult02</defName>
+		<title>Delta Rancher</title>
+		<titleShort>Rancher</titleShort>
+		<baseDescription>Through their life this Delta has gained some skills to help them deal with animals better.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidDelta</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+</Defs>

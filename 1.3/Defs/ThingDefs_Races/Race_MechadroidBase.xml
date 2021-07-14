@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_BaseMechadroid" Abstract="True">
+		<alienRace>
+			<generalSettings>
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.5</maleGenderProbability>
+				<immuneToAge>true</immuneToAge>
+				<humanRecipeImport>false</humanRecipeImport>
+				<forcedRaceTraitEntries />
+				<chemicalSettings />
+				<factionRelations />
+				<notXenophobistTowards />
+				<immuneToXenophobia>true</immuneToXenophobia>
+				<minAgeForAdulthood>3</minAgeForAdulthood>
+				<disallowedTraits>
+					<li>
+						<defName>DrugDesire</defName>
+					</li>
+					<li>
+						<defName>NaturalMood</defName>
+					</li>
+					<li>
+						<defName>Nerves</defName>
+					</li>
+					<li>
+						<defName>Neurotic</defName>
+					</li>
+					<li>
+						<defName>PsychicSensitivity</defName>
+					</li>
+					<li>
+						<defName>Cannibal</defName>
+					</li>
+					<li>
+						<defName>TooSmart</defName>
+					</li>
+					<li>
+						<defName>Transhumanist</defName>
+					</li>
+					<li>
+						<defName>BodyPurist</defName>
+					</li>
+					<li>
+						<defName>Greedy</defName>
+					</li>
+					<li>
+						<defName>Jealous</defName>
+					</li>
+					<li>
+						<defName>Nudist</defName>
+					</li>
+					<li>
+						<defName>DislikesMen</defName>
+					</li>
+					<li>
+						<defName>DislikesWomen</defName>
+					</li>
+					<li>
+						<defName>AnnoyingVoice</defName>
+					</li>
+					<li>
+						<defName>CreepyBreathing</defName>
+					</li>
+					<li>
+						<defName>Pyromaniac</defName>
+					</li>
+					<li>
+						<defName>Wimp</defName>
+					</li>
+					<li>
+						<defName>Gourmand</defName>
+					</li>
+					<li>
+						<defName>Xenophobia</defName>
+					</li>
+					<li>
+						<defName>Brawler</defName>
+					</li>
+					<li>
+						<defName>Gay</defName>
+					</li>
+					<li>
+						<defName>Bisexual</defName>
+					</li>
+					<li>
+						<defName>Asexual</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_IronStomach</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_BigBoned</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_Technophobe</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_Squeamish</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_DrunkenMaster</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_Stoner</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_Lush</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_RefinedPalate</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_Gastronomist</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_ThickSkinned</defName>
+					</li>
+					<li MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+						<defName>VTE_ThinSkinned</defName>
+					</li>
+				</disallowedTraits>
+				<alienPartGenerator>
+					<useGenderedHeads>false</useGenderedHeads>
+				</alienPartGenerator>
+			</generalSettings>
+			<hairSettings>
+				<hasHair>false</hasHair>
+			</hairSettings>
+			<relationSettings>
+				<relationChanceModifierChild>0</relationChanceModifierChild>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+				<relationChanceModifierFiance>0</relationChanceModifierFiance>
+				<relationChanceModifierLover>0</relationChanceModifierLover>
+				<relationChanceModifierParent>0</relationChanceModifierParent>
+				<relationChanceModifierSibling>0</relationChanceModifierSibling>
+				<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			</relationSettings>
+			<thoughtSettings>
+				<cannotReceiveThoughtsAtAll>false</cannotReceiveThoughtsAtAll>
+				<cannotReceiveThoughts>
+					<li>NeedFood</li>
+					<li>Naked</li>
+					<li>SharedBed</li>
+					<li>AttendedWedding</li>
+					<li>AttendedParty</li>
+					<li>SleepDisturbed</li>
+					<li>SleptOnGround</li>
+					<li>KnowPrisonerSold</li>
+					<li>KnowGuestOrganHarvested</li>
+					<li>KnowColonistOrganHarvested</li>
+					<li>WasImprisoned</li>
+					<li>KnowBuriedInSarcophagus</li>
+					<li>ButcheredHumanlikeCorpse</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>ObservedLayingCorpse</li>
+					<li>ObservedLayingRottingCorpse</li>
+					<li>WitnessedDeathAlly</li>
+					<li>WitnessedDeathNonAlly</li>
+					<li>ColonistBanished</li>
+					<li>ColonistBanishedToDie</li>
+					<li>PrisonerBanishedToDie</li>
+					<li>BondedAnimalBanished</li>
+					<li>SleptInBedroom</li>
+					<li>SleptInBarracks</li>
+					<li>InsultedMood</li>
+					<li>KindWordsMood</li>
+					<li>ArtifactMoodBoost</li>
+					<li>EnvironmentDark</li>
+					<li>ApparelDamaged</li>
+					<li>DeadMansApparel</li>
+					<li>HumanLeatherApparelSad</li>
+					<li>KnowGuestExecuted</li>
+					<li>KnowColonistExecuted</li>
+					<li>KnowPrisonerDiedInnocent</li>
+					<li>KnowColonistDied</li>
+					<li>PawnWithGoodOpinionDied</li>
+					<li>ProsthophileNoProsthetic</li>
+				</cannotReceiveThoughts>
+				<butcherThoughtGeneral>
+					<thought>O21_NullThought</thought>
+					<knowThought>O21_NullThought</knowThought>
+				</butcherThoughtGeneral>
+			</thoughtSettings>
+			<raceRestriction>
+				<foodList>
+					<li>O21_MechanoidPowerCell</li>
+					<li MayRequire="neronix17.outerrim.galaxies">O21_OR_DroidBattery_Full</li>
+				</foodList>
+				<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+			</raceRestriction>
+			<compatibility>
+				<isFlesh>False</isFlesh>
+				<isSentient>True</isSentient>
+				<hasBlood>False</hasBlood>
+			</compatibility>
+		</alienRace>
+		<statBases>
+			<MoveSpeed>4.7</MoveSpeed>
+			<Flammability>0</Flammability>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<PsychicSensitivity>0.5</PsychicSensitivity>
+			<ToxicSensitivity>0.0</ToxicSensitivity>
+			<ArmorRating_Heat>2.00</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+			<RestRateMultiplier>2.0</RestRateMultiplier>
+			<ImmunityGainSpeed>10</ImmunityGainSpeed>
+		</statBases>
+		<race>
+			<fleshType>Artificial</fleshType>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>2500</lifeExpectancy>
+			<leatherDef>Leather_Human</leatherDef>
+			<bloodDef>Filth_MachineBits</bloodDef>
+			<body>O21_Mechadroid</body>
+			<nameGenerator>O21_NameGenerator_Mechadroid</nameGenerator>
+			<useMeatFrom>Human</useMeatFrom>
+			<foodType>OmnivoreHuman</foodType>
+			<needsRest>false</needsRest>
+			<hasGenders>false</hasGenders>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>O21_EternalMechadroidStage</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+					<soundCall>Pawn_Mech_Scyther_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(0,0)</li>
+					<li>(1,100)</li>
+					<li>(2,100)</li>
+					<li>(4,30)</li>
+					<li>(20,18)</li>
+					<li>(60,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>O21_ConstructHumanoid</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+			<!-- li>O21_ShutDownMechadroid</li -->
+			<li>O21_MechanoidRepairKit</li>
+		</recipes>
+		<modExtensions>
+			<li Class="O21Toolbox.Hibernation.DefModExt_Hibernation">
+				<canHibernate>true</canHibernate>
+				<hibernationJob>O21Hibernate</hibernationJob>
+			</li>
+			<li Class="O21Toolbox.SimpleNeeds.DefModExt_FoodNeedAdjuster">
+				<newLabel>Energy</newLabel>
+				<newDescription>Mechadroids need manufactured energy cells to survive, a steady supply of them with the ability to recharge depleted cells is necessary for their survival.</newDescription>
+				<disableFoodNeed>false</disableFoodNeed>
+				<malnutritionReplacer>O21_LowEnergy</malnutritionReplacer>
+			</li>
+			<li Class="O21Toolbox.Needs.DefModExt_ArtificialPawn">
+				<noSkillLoss>true</noSkillLoss>
+				<canSocialize>true</canSocialize>
+				<colonyCaresIfDead>false</colonyCaresIfDead>
+                <tweakCorpseRot>True</tweakCorpseRot>
+                <corpseEdible>False</corpseEdible>
+				<affectedByEMP>True</affectedByEMP>
+				<repairParts>
+					<li>O21_MechanoidParts</li>
+				</repairParts>
+			</li>
+			<li Class="O21Toolbox.HarmonyPatches.DefModExt_SpaceCapable" />
+		</modExtensions>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

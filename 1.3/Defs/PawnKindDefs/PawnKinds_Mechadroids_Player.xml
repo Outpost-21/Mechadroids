@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="O21_MechadroidBaseColonyPawnKind" Abstract="True">
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<combatPower>40</combatPower>
+		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>100</min>
+			<max>600</max>
+		</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<chemicalAddictionChance>0.0</chemicalAddictionChance>
+		<techHediffsChance>0.03</techHediffsChance>
+		<techHediffsMoney>
+			<min>50</min>
+			<max>800</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="O21_MechadroidBaseColonyPawnKind">
+		<defName>O21_MechadroidAlphaColonist</defName>
+		<label>mechadroid alpha</label>
+		<race>O21_Alien_MechadroidAlpha</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="O21_MechadroidBaseColonyPawnKind">
+		<defName>O21_MechadroidGammaColonist</defName>
+		<label>mechadroid gamma</label>
+		<race>O21_Alien_MechadroidGamma</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="O21_MechadroidBaseColonyPawnKind">
+		<defName>O21_MechadroidDeltaColonist</defName>
+		<label>mechadroid delta</label>
+		<race>O21_Alien_MechadroidDelta</race>
+	</PawnKindDef>
+
+</Defs>

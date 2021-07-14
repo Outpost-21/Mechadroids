@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- RecipeDef>
+		<defName>O21_ShutDownMechadroid</defName>
+		<label>shut down and disassemble</label>
+		<description>Shuts down a mechadroid and disassembles for materials.</description>
+		<workerClass>O21Toolbox.ArtificialPawn.Recipe_Disassemble</workerClass>
+		<jobString>Shutting down droid and disassembling.</jobString>
+		<soundWorking>Interact_Repair</soundWorking>
+		<workAmount>1600</workAmount>
+		<targetsBodyPart>false</targetsBodyPart>
+		<effectWorking>Repair</effectWorking>
+		<isViolation>true</isViolation>
+		<anesthetize>false</anesthetize>
+		<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+	</RecipeDef -->
+
+	<RecipeDef>
+		<defName>O21_MechanoidRepairKit</defName>
+		<label>use mechadroid repair kit</label>
+		<description>Uses the mechadroid repair kit to fully repair a mechadroid to mint condition from debilitating injuries to wear and tear over time. Also refills coolant.</description>
+		<workerClass>O21Toolbox.ArtificialPawn.Recipe_RepairKit</workerClass>
+		<jobString>Using droid repair kit.</jobString>
+		<soundWorking>Interact_Repair</soundWorking>
+		<effectWorking>Repair</effectWorking>
+		<targetsBodyPart>false</targetsBodyPart>
+		<anesthetize>false</anesthetize>
+		<workAmount>800</workAmount>
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>O21_MechanoidRepairKit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>O21_MechanoidRepairKit</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+</Defs>
