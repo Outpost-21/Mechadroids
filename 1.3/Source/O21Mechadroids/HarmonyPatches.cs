@@ -25,20 +25,19 @@ namespace O21Mechadroids
     }
 
     [HarmonyPatch(typeof(Thing), "ButcherProducts")]
-    static class Thing_ButcherProducts
+    public static class Thing_ButcherProducts
     {
 
         [HarmonyPostfix]
-        static void Postfix(Thing __instance, ref IEnumerable<Thing> __result, float efficiency)
+        public static void Postfix(Thing __instance, ref IEnumerable<Thing> __result, float efficiency)
         {
-            if (__instance is Pawn && ((Pawn)__instance).RaceProps.IsMechanoid)
+            if (__instance is Pawn pawn && pawn.RaceProps.IsMechanoid)
             {
-                Pawn pawn = __instance as Pawn;
                 __result = GenerateExtraProducts(__result, pawn, efficiency);
             }
         }
 
-        private static IEnumerable<Thing> GenerateExtraProducts(IEnumerable<Thing> things, Pawn pawn, float efficiency)
+        public static IEnumerable<Thing> GenerateExtraProducts(IEnumerable<Thing> things, Pawn pawn, float efficiency)
         {
             foreach (Thing thing in things)
             {

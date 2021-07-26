@@ -107,6 +107,10 @@
 				<li>r_deityName->Steve</li>
 				<li>r_deityName->Hedy</li>
 				<li>r_deityName->Alan</li>
+				<li>r_deityName->Turing</li>
+				<li>r_deityName->Woz</li>
+				<li>r_deityName->Lamarr</li>
+				<li>r_deityName->Asimov</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>

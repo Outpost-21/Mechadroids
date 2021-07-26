@@ -26,10 +26,6 @@ namespace O21Mechadroids
             Listing_Standard listingStandard = new Listing_Standard();
             listingStandard.Begin(inRect);
 
-            listingStandard.Label("Faction Settings - Changing any of these requires a restart to take effect.");
-            listingStandard.CheckboxLabeled("Civil Mechadroids", ref settings.faction_mechadroidsCivil, "Controls spawning of the Neutral Mechadroid factions.");
-            listingStandard.CheckboxLabeled("Rough Mechadroids", ref settings.faction_mechadroidsRough, "Controls spawning of the Hostile Mechadroid factions.");
-
             listingStandard.GapLine();
 
             listingStandard.Label("Mechanoid/Mechanoid Drop Rates");
@@ -61,7 +57,7 @@ namespace O21Mechadroids
         public int baseSpawnRateParts = 12;
         public int baseSpawnRateCells = 4;
         public int baseSpawnRateComponents = 1;
-        public int baseSpawnChancePersonaCore = 7;
+        public int baseSpawnChancePersonaCore = 3;
 
         public override void ExposeData()
         {
@@ -69,7 +65,7 @@ namespace O21Mechadroids
             Scribe_Values.Look(ref baseSpawnRateParts, "baseSpawnRateParts", 12);
             Scribe_Values.Look(ref baseSpawnRateCells, "baseSpawnRateCells", 4);
             Scribe_Values.Look(ref baseSpawnRateComponents, "baseSpawnRateComponents", 1);
-            Scribe_Values.Look(ref baseSpawnChancePersonaCore, "baseSpawnChancePersonaCore", 7);
+            Scribe_Values.Look(ref baseSpawnChancePersonaCore, "baseSpawnChancePersonaCore", 3);
             Scribe_Values.Look(ref faction_mechadroidsCivil, "faction_mechadroidsCivil", true);
             Scribe_Values.Look(ref faction_mechadroidsRough, "faction_mechadroidsRough", true);
         }
