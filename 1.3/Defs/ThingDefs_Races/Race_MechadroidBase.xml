@@ -195,6 +195,52 @@
 					<li>KnowColonistDied</li>
 					<li>PawnWithGoodOpinionDied</li>
 					<li>ProsthophileNoProsthetic</li>
+					
+					<li>Inebriated</li>
+					<li>Hungover</li>
+					<li>AlcoholWithdrawal</li>
+					<li>AmbrosiaHigh</li>
+					<li>AmbrosiaWithdrawal</li>
+					<li>GoJuiceHigh</li>
+					<li>GoJuiceWithdrawal</li>
+					<li>FlakeHigh</li>
+					<li>PsychiteTeaHigh</li>
+					<li>YayoHigh</li>
+					<li>PsychiteWithdrawal</li>
+					<li>SmokeleafHigh</li>
+					<li>SmokeleafWithdrawal</li>
+					<li>WakeUpWithdrawal</li>
+					<li>AteNutrientPasteMeal</li>
+					<li>AnestheticHigh</li>
+					<li>AteLavishMeal</li>
+					<li>AteFineMeal</li>
+					<li>AteRawFood</li>
+					<li>AteKibble</li>
+					<li>AteCorpse</li>
+					<li>AteHumanlikeMeatDirect</li>
+					<li>AteHumanlikeMeatDirectCannibal</li>
+					<li>AteHumanlikeMeatAsIngredient</li>
+					<li>AteHumanlikeMeatAsIngredientCannibal</li>
+					<li>AteInsectMeatDirect</li>
+					<li>AteInsectMeatAsIngredient</li>
+					<li>AteRottenFood</li>
+					<li>AteInImpressiveDiningRoom</li>
+					<li>EnvironmentDark</li>
+					<li>ApparelDamaged</li>
+					<li>WrongApparelGender</li>
+					<li>DeadMansApparel</li>
+					<li>Sick</li>
+					<li>NeedFood</li>
+					<li>DrugDesireFascination</li>
+					<li>DrugDesireFascinationSatisfied</li>
+					<li>DrugDesireInterest</li>
+					<li>DrugDesireInterestSatisfied</li>
+					<li>Pain</li>
+					<li>Naked</li>
+					<li>ColonistLeftUnburied</li>
+					<li>ProsthophileNoProsthetic</li>
+					<li>ProsthophileHappy</li>
+					<li>ProsthophobeUnhappy</li>
 
 					<li MayRequire="Ludeon.RimWorld.Ideology">IdeoBuildingMissing</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">IdeoBuildingDisrespected</li>
@@ -272,6 +318,38 @@
 					<li MayRequire="Ludeon.RimWorld.Ideology">ParticipatedInRaid_Required</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">RecentConquest_Respected</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">RecentConquest_Required</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology">AteVeneratedAnimalMeat</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">TameVeneratedAnimalDied</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">InstalledProsthetic_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">InstalledProsthetic_Know_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">InstalledProsthetic_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">InstalledProsthetic_Know_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HasProsthetic_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HasProsthetic_Abhorrent_Social</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HasProsthetic_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HasProsthetic_Disapproved_Social</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HasNoProsthetic_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HasNoProsthetic_Disapproved_Social</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HasProsthetic_Approved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">IngestedDrug_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">IngestedRecreationalDrug_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">IngestedHardDrug_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">IngestedDrug_Know_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">IngestedRecreationalDrug_Know_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">IngestedHardDrug_Know_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Pain_Idealized</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SleptUsingSleepAccelerator</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">NeedNeuralSupercharge</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">AgeReversalDemanded</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">AgeReversalReceived</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">BioSculpterDespised</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">GauranlenConnectionDesired</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">IdeoBuildingMissing</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">ConnectedTreeDied</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">BiosculpterPleasure</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">LookChangeDesired</li>
 					
 					<li MayRequire="Ludeon.RimWorld.Royalty">DecreeUnmet</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">PsychicEntropyOverloaded</li>
