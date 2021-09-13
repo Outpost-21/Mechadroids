@@ -18,7 +18,7 @@
 			<Nutrition>1</Nutrition>
 		</statBases>
 		<ingestible>
-			<foodType>Meat</foodType>
+			<foodType>Meal</foodType>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
 			<preferability>MealLavish</preferability>
 			<tasteThought>AteLavishMeal</tasteThought>

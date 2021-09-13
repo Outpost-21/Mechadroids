@@ -8,7 +8,7 @@
 		</tags>
 		<placeRules>
 			<include>
-				<li>PlaceMakerCommon</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">PlaceMakerCommon</li>
 			</include>
 			<rulesStrings>
 				<!-- A cold ice-world covered in cities of various kinds. -->

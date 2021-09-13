@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<MemeDef>
+	<MemeDef MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>O21_Mechadroids_KnownCreator</defName>
 		<label>known creator</label>
 		<description>The facts of our creation are known to us, our creators walked among us until their very natural mortal death. We know they are gone but wish to revere them as the beginning of our kind. They were not traditional gods but they are the closest we have.</description>
@@ -39,7 +39,7 @@
 		</descriptionMaker>
 	</MemeDef>
 
-	<IdeoStoryPatternDef>
+	<IdeoStoryPatternDef MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>O21_MechadroidsTheismStory</defName>
 		<segments>
 			<li>mechadroid</li>

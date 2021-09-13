@@ -40,7 +40,7 @@
 		</styleItemTags>
 	</CultureDef>
 
-	<RulePackDef>
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>NamerIdeoMechadroid</defName>
 		<rulePack>
 			<rulesStrings>
@@ -99,7 +99,7 @@
 		</rulePack>
 	</RulePackDef>
 
-	<RulePackDef>
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>NamerDeityMechadroid</defName>
 		<rulePack>
 			<rulesStrings>
@@ -115,7 +115,7 @@
 		</rulePack>
 	</RulePackDef>
 
-	<RulePackDef>
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>DeityTypeMakerMechadroid</defName>
 		<include>
 			<li>DeityTypeMakerGlobal</li>
@@ -129,7 +129,7 @@
 		</rulePack>
 	</RulePackDef>
 
-	<RulePackDef>
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>LeaderTitleMaker_Mechadroid</defName>
 		<rulePack>
 			<rulesStrings>
@@ -138,7 +138,7 @@
 		</rulePack>
 	</RulePackDef>
 
-	<RulePackDef>
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>NamerFestivalMechadroid</defName>
 		<include>
 			<li>NamerFestivalGlobal</li>
