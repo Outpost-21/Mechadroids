@@ -8,6 +8,7 @@
 
 	<ResearchProjectDef>
 		<defName>O21_Mechanoids_Parts</defName>
+		<tab>O21_Mechadroids</tab>
 		<label>Mechanoid Parts</label>
 		<description>Fabricate mechanoid components, used to repair and craft mechanoids and mechadroids.</description>
 		<baseCost>2000</baseCost>
@@ -25,6 +26,7 @@
 
 	<ResearchProjectDef>
 		<defName>O21_Mechanoids_PowerCells</defName>
+		<tab>O21_Mechadroids</tab>
 		<label>Mechadroid Power Cells</label>
 		<description>Fabricate mechadroid power cells, used as a power source for mechadroids when no other is accessible or to feed energy into downed mechadroids.</description>
 		<baseCost>2000</baseCost>
@@ -42,6 +44,7 @@
 
 	<ResearchProjectDef>
 		<defName>O21_Mechanoids_RepairKits</defName>
+		<tab>O21_Mechadroids</tab>
 		<label>Mechadroid Repair Kits</label>
 		<description>Fabricate mechadroid repair kits, used to fully repair mechadroids as a surgery option.</description>
 		<baseCost>2000</baseCost>
