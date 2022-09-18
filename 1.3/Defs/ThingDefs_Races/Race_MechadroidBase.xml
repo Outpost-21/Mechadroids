@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="O21_BaseMechadroid" Abstract="True">
@@ -195,7 +195,7 @@
 					<li>KnowColonistDied</li>
 					<li>PawnWithGoodOpinionDied</li>
 					<li>ProsthophileNoProsthetic</li>
-					
+
 					<li>Inebriated</li>
 					<li>Hungover</li>
 					<li>AlcoholWithdrawal</li>
@@ -254,7 +254,6 @@
 					<li MayRequire="Ludeon.RimWorld.Ideology">PsychicArchotechEmanator_Core</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">FailedConvertIdeoAttemptResentment</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">RelicAtRitual</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">RitualDelayed</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">TrialExonerated</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">TrialFailed</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">TrialConvicted</li>
@@ -350,7 +349,7 @@
 					<li MayRequire="Ludeon.RimWorld.Ideology">ConnectedTreeDied</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">BiosculpterPleasure</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">LookChangeDesired</li>
-					
+
 					<li MayRequire="Ludeon.RimWorld.Royalty">DecreeUnmet</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">PsychicEntropyOverloaded</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">AnimaScream</li>

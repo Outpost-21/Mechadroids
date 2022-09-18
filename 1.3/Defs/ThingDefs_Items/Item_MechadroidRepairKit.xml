@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef ParentName="ResourceBase">
@@ -28,16 +28,16 @@
 				<li>FabricationBench</li>
 				<li>O21_Mechanoid_Workbench</li>
 			</recipeUsers>
-            <researchPrerequisite>O21_Mechanoids_RepairKits</researchPrerequisite>
+			<researchPrerequisite>O21_Mechanoids_RepairKits</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<Steel>10</Steel>
-            <O21_MechanoidParts>10</O21_MechanoidParts>
+			<O21_MechanoidParts>10</O21_MechanoidParts>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<thingCategories>
 			<li>Manufactured</li>
 		</thingCategories>
 	</ThingDef>
-	
+
 </Defs>

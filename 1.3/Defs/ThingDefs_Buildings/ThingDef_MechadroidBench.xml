@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef ParentName="BenchBase">
@@ -35,7 +35,7 @@
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<recipes>
-            <li>ButcherCorpseMechanoid</li>
+			<li>ButcherCorpseMechanoid</li>
 			<li>O21_ButcherCorpseMechadroid</li>
 			<li>O21_Mech_ChargePowerCells</li>
 			<li>O21_Make_MechadroidAlpha</li>
@@ -51,7 +51,7 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>350</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Glower">
 				<glowRadius>5</glowRadius>
 				<glowColor>(73, 138, 123, 0)</glowColor>
@@ -61,7 +61,7 @@
 					<li>ToolCabinet</li>
 				</linkableFacilities>
 			</li>
-			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Breakdownable" />
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -76,21 +76,21 @@
 		</placeWorkers>
 	</ThingDef>
 
-    <WorkGiverDef>
-        <defName>O21_Mechanoids_DoWorkAtMechanoidBench</defName>
-        <label>make things at matter replicator</label>
-        <giverClass>WorkGiver_DoBill</giverClass>
-        <workType>Crafting</workType>
-        <priorityInType>100</priorityInType>
-        <fixedBillGiverDefs>
-            <li>O21_Mechanoid_Workbench</li>
-        </fixedBillGiverDefs>
-        <verb>replicate</verb>
-        <gerund>replicating at</gerund>
-        <requiredCapacities>
-            <li>Manipulation</li>
-        </requiredCapacities>
-        <prioritizeSustains>true</prioritizeSustains>
-    </WorkGiverDef>
+	<WorkGiverDef>
+		<defName>O21_Mechanoids_DoWorkAtMechanoidBench</defName>
+		<label>make things at matter replicator</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>O21_Mechanoid_Workbench</li>
+		</fixedBillGiverDefs>
+		<verb>replicate</verb>
+		<gerund>replicating at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
 
 </Defs>

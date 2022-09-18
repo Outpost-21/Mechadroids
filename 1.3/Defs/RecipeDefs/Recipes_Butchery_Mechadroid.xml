@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
+
 	<RecipeDef>
 		<defName>O21_ButcherCorpseMechadroid</defName>
 		<label>shred mechadroid</label>
-        <description>Shred a dead mechadroid to try to salvage usable material.</description>
-        <jobString>Shredding mechadroid.</jobString>
+		<description>Shred a dead mechadroid to try to salvage usable material.</description>
+		<jobString>Shredding mechadroid.</jobString>
 		<workAmount>300</workAmount>
 		<workSpeedStat>ButcheryMechanoidSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
@@ -31,9 +31,9 @@
 				<li>AllowCorpsesStranger</li>
 			</specialFiltersToAllow>
 			<thingDefs>
-                <li>Corpse_O21_Alien_MechadroidAlpha</li>
-                <li>Corpse_O21_Alien_MechadroidGamma</li>
-                <li>Corpse_O21_Alien_MechadroidDelta</li>
+				<li>Corpse_O21_Alien_MechadroidAlpha</li>
+				<li>Corpse_O21_Alien_MechadroidGamma</li>
+				<li>Corpse_O21_Alien_MechadroidDelta</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
+
 	<FactionDef ParentName="FactionBase">
 		<defName>O21_MechadroidPlayerColony</defName>
 		<label>Mechadroids</label>
@@ -9,7 +9,7 @@
 		<basicMemberKind>O21_MechadroidAlphaColonist</basicMemberKind>
 		<pawnSingular>colonist</pawnSingular>
 		<pawnsPlural>colonists</pawnsPlural>
-		<techLevel>Spacer</techLevel>
+		<techLevel>Ultra</techLevel>
 		<allowedCultures>
 			<li>Mechanexian</li>
 		</allowedCultures>
@@ -42,5 +42,5 @@
 			</thingDefs>
 		</apparelStuffFilter>
 	</FactionDef>
-	
+
 </Defs>

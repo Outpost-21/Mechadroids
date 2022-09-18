@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<AlienRace.ThingDef_AlienRace ParentName="O21_BaseMechadroid" Name="O21_Alien_MechadroidGamma">
@@ -14,19 +14,19 @@
 					<alienbodytypes>
 						<li>Male</li>
 					</alienbodytypes>
-                    <colorChannels>
-                        <li>
-                            <name>skin</name>
-                            <first Class="ColorGenerator_Options">
-                                <options>
-                                    <li>
-                                        <weight>20</weight>
-                                        <only>RGB(255,255,255)</only>
-                                    </li>
-                                </options>
-                            </first>
-                        </li>
-                    </colorChannels>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>20</weight>
+										<only>RGB(255,255,255)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths>
@@ -106,5 +106,5 @@
 			<ComponentSpacer>6</ComponentSpacer>
 		</butcherProducts>
 	</AlienRace.ThingDef_AlienRace>
-	
+
 </Defs>

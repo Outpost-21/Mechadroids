@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 	<BodyDef>
 		<defName>O21_Mechadroid</defName>
 		<label>mechadroid</label>
@@ -7,24 +8,24 @@
 			<def>MechanicalThorax</def>
 			<height>Middle</height>
 			<depth>Outside</depth>
-            <groups>
-                <li>Torso</li>
-            </groups>
+			<groups>
+				<li>Torso</li>
+			</groups>
 			<parts>
 				<li>
 					<def>MechanicalNeck</def>
 					<coverage>0.10</coverage>
 					<height>Top</height>
-                    <groups>
-                        <li>Neck</li>
-                    </groups>
+					<groups>
+						<li>Neck</li>
+					</groups>
 					<parts>
 						<li>
 							<def>Head</def>
 							<coverage>0.80</coverage>
 							<groups>
-                                <li>UpperHead</li>
-                                <li>FullHead</li>
+								<li>UpperHead</li>
+								<li>FullHead</li>
 								<li>HeadAttackTool</li>
 							</groups>
 							<parts>
@@ -32,54 +33,54 @@
 									<def>ArtificialBrain</def>
 									<coverage>0.10</coverage>
 									<depth>Inside</depth>
-                                    <groups>
-                                        <li>UpperHead</li>
-                                        <li>FullHead</li>
-                                    </groups>
+									<groups>
+										<li>UpperHead</li>
+										<li>FullHead</li>
+									</groups>
 								</li>
 								<li>
 									<def>SightSensor</def>
 									<customLabel>left sight sensor</customLabel>
 									<coverage>0.13</coverage>
-                                    <groups>
-                                        <li>FullHead</li>
-                                        <li>Eyes</li>
-                                    </groups>
+									<groups>
+										<li>FullHead</li>
+										<li>Eyes</li>
+									</groups>
 								</li>
 								<li>
 									<def>SightSensor</def>
 									<customLabel>right sight sensor</customLabel>
 									<coverage>0.13</coverage>
-                                    <groups>
-                                        <li>FullHead</li>
-                                        <li>Eyes</li>
-                                    </groups>
+									<groups>
+										<li>FullHead</li>
+										<li>Eyes</li>
+									</groups>
 								</li>
 								<li>
 									<def>HearingSensor</def>
 									<customLabel>left hearing sensor</customLabel>
 									<coverage>0.10</coverage>
-                                    <groups>
-                                        <li>UpperHead</li>
-                                        <li>FullHead</li>
-                                    </groups>
+									<groups>
+										<li>UpperHead</li>
+										<li>FullHead</li>
+									</groups>
 								</li>
 								<li>
 									<def>HearingSensor</def>
 									<customLabel>right hearing sensor</customLabel>
 									<coverage>0.10</coverage>
-                                    <groups>
-                                        <li>UpperHead</li>
-                                        <li>FullHead</li>
-                                    </groups>
+									<groups>
+										<li>UpperHead</li>
+										<li>FullHead</li>
+									</groups>
 								</li>
 								<li>
 									<def>SmellSensor</def>
 									<coverage>0.10</coverage>
-                                    <groups>
-                                        <li>Teeth</li>
-                                        <li>FullHead</li>
-                                    </groups>
+									<groups>
+										<li>Teeth</li>
+										<li>FullHead</li>
+									</groups>
 								</li>
 							</parts>
 						</li>
@@ -106,7 +107,7 @@
 											<customLabel>left pinky</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
-                                                <li>Hands</li>
+												<li>Hands</li>
 												<li>LeftHand</li>
 											</groups>
 										</li>
@@ -115,7 +116,7 @@
 											<customLabel>left middle finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
-                                                <li>Hands</li>
+												<li>Hands</li>
 												<li>LeftHand</li>
 												<li>MiddleFingers</li>
 											</groups>
@@ -125,7 +126,7 @@
 											<customLabel>left index finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
-                                                <li>Hands</li>
+												<li>Hands</li>
 												<li>LeftHand</li>
 											</groups>
 										</li>
@@ -134,7 +135,7 @@
 											<customLabel>left thumb</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
-                                                <li>Hands</li>
+												<li>Hands</li>
 												<li>LeftHand</li>
 											</groups>
 										</li>
@@ -165,7 +166,7 @@
 											<customLabel>right pinky</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
-                                                <li>Hands</li>
+												<li>Hands</li>
 												<li>RightHand</li>
 											</groups>
 										</li>
@@ -174,7 +175,7 @@
 											<customLabel>right middle finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
-                                                <li>Hands</li>
+												<li>Hands</li>
 												<li>RightHand</li>
 												<li>MiddleFingers</li>
 											</groups>
@@ -184,7 +185,7 @@
 											<customLabel>right index finger</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
-                                                <li>Hands</li>
+												<li>Hands</li>
 												<li>RightHand</li>
 											</groups>
 										</li>
@@ -193,7 +194,7 @@
 											<customLabel>right thumb</customLabel>
 											<coverage>0.15</coverage>
 											<groups>
-                                                <li>Hands</li>
+												<li>Hands</li>
 												<li>RightHand</li>
 											</groups>
 										</li>
@@ -216,17 +217,17 @@
 					<customLabel>left leg</customLabel>
 					<coverage>0.2</coverage>
 					<height>Bottom</height>
-                    <groups>
-                        <li>Legs</li>
-                    </groups>
+					<groups>
+						<li>Legs</li>
+					</groups>
 					<parts>
 						<li>
 							<def>MechanicalFoot</def>
 							<customLabel>left foot</customLabel>
-							<coverage>0.2</coverage>          
-                            <groups>
-                                <li>Feet</li>
-                            </groups>
+							<coverage>0.2</coverage>
+							<groups>
+								<li>Feet</li>
+							</groups>
 						</li>
 					</parts>
 				</li>
@@ -235,17 +236,17 @@
 					<customLabel>right leg</customLabel>
 					<coverage>0.2</coverage>
 					<height>Bottom</height>
-                    <groups>
-                        <li>Legs</li>
-                    </groups>
+					<groups>
+						<li>Legs</li>
+					</groups>
 					<parts>
 						<li>
 							<def>MechanicalFoot</def>
 							<customLabel>right foot</customLabel>
 							<coverage>0.2</coverage>
-                            <groups>
-                                <li>Feet</li>
-                            </groups>
+							<groups>
+								<li>Feet</li>
+							</groups>
 						</li>
 					</parts>
 				</li>
@@ -267,4 +268,5 @@
 			</parts>
 		</corePart>
 	</BodyDef>
+
 </Defs>

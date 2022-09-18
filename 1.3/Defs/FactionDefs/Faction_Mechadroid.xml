@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<FactionDef ParentName="FactionBase">
@@ -12,11 +12,9 @@
 		<classicIdeo>true</classicIdeo>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>10</configurationListOrderPriority>
-
 		<fixedLeaderKinds>
 			<li>O21_Mechadroid_Primus</li>
 		</fixedLeaderKinds>
-
 		<pawnSingular>mechadroid</pawnSingular>
 		<pawnsPlural>mechadroids</pawnsPlural>
 		<categoryTag>Mechadroid</categoryTag>

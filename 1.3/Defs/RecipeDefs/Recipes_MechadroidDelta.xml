@@ -1,47 +1,47 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ThingDef>
-        <defName>O21_Spawner_MechadroidDelta</defName>
-        <label>delta-series mechadroid</label>
-        <description>Creates a delta-series mechadroid.</description>
-        <thingClass>Building</thingClass>
+	<ThingDef>
+		<defName>O21_Spawner_MechadroidDelta</defName>
+		<label>delta-series mechadroid</label>
+		<description>Creates a delta-series mechadroid.</description>
+		<thingClass>Building</thingClass>
 
-        <graphicData>
-            <texPath>Things/Alpha</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
+		<graphicData>
+			<texPath>Things/Alpha</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 
-        <statBases>
-            <WorkToMake>550</WorkToMake>
-            <MaxHitPoints>150</MaxHitPoints>
-            <Flammability>0.1</Flammability>
-        </statBases>
+		<statBases>
+			<WorkToMake>550</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+		</statBases>
 
-            <comps>
-        <li Class="O21Toolbox.CompProperties_PawnSpawner">
-            <pawnKind>O21_CraftedMechadroidDelta</pawnKind>
-            <newborn>true</newborn>
-        </li>
-        </comps>
+		<comps>
+			<li Class="O21Toolbox.CompProperties_PawnSpawner">
+				<pawnKind>O21_CraftedMechadroidDelta</pawnKind>
+				<newborn>true</newborn>
+			</li>
+		</comps>
 
-        <size>(1,1)</size>
-        <category>Building</category>
-        <pathCost>200</pathCost>
-        <passability>Standable</passability>
-        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-        <filthLeaving>Filth_RubbleRock</filthLeaving>
-        <hasInteractionCell>false</hasInteractionCell>
-        <drawerType>MapMeshAndRealTime</drawerType>
-        <altitudeLayer>Building</altitudeLayer>
-        <repairEffect>Repair</repairEffect>
-        <useHitPoints>True</useHitPoints>
-        <selectable>true</selectable>
-        <surfaceType>Item</surfaceType>
-        <tickerType>Normal</tickerType>
-    </ThingDef>
+		<size>(1,1)</size>
+		<category>Building</category>
+		<pathCost>200</pathCost>
+		<passability>Standable</passability>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleRock</filthLeaving>
+		<hasInteractionCell>false</hasInteractionCell>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<repairEffect>Repair</repairEffect>
+		<useHitPoints>True</useHitPoints>
+		<selectable>true</selectable>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+	</ThingDef>
 
 	<RecipeDef>
 		<defName>O21_Make_MechadroidDelta</defName>
@@ -97,9 +97,9 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-                <li>AIPersonaCore</li>
+				<li>AIPersonaCore</li>
 				<li>O21_MechanoidParts</li>
-                <li>ComponentSpacer</li>
+				<li>ComponentSpacer</li>
 				<li>Steel</li>
 				<li>Plasteel</li>
 			</thingDefs>

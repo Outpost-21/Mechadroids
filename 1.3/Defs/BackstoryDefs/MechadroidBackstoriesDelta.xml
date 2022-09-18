@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<AlienRace.BackstoryDef>
@@ -12,10 +12,10 @@
 			<li>MechadroidDelta</li>
 		</spawnCategories>
 		<workDisables>
-        	<li>Intellectual</li>
-        	<li>ManualSkilled</li>
-        	<li>Caring</li>
-    	</workDisables>
+			<li>Intellectual</li>
+			<li>ManualSkilled</li>
+			<li>Caring</li>
+		</workDisables>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
@@ -51,10 +51,10 @@
 			<li>MechadroidDelta</li>
 		</spawnCategories>
 		<workDisables>
-        	<li>Intellectual</li>
-        	<li>ManualSkilled</li>
-        	<li>Caring</li>
-    	</workDisables>
+			<li>Intellectual</li>
+			<li>ManualSkilled</li>
+			<li>Caring</li>
+		</workDisables>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
@@ -90,10 +90,10 @@
 			<li>MechadroidDelta</li>
 		</spawnCategories>
 		<workDisables>
-        	<li>Intellectual</li>
-        	<li>ManualSkilled</li>
-        	<li>Caring</li>
-    	</workDisables>
+			<li>Intellectual</li>
+			<li>ManualSkilled</li>
+			<li>Caring</li>
+		</workDisables>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef ParentName="ResourceBase">
@@ -26,7 +26,7 @@
 				<li>FabricationBench</li>
 				<li>O21_Mechanoid_Workbench</li>
 			</recipeUsers>
-            <researchPrerequisite>O21_Mechanoids_Parts</researchPrerequisite>
+			<researchPrerequisite>O21_Mechanoids_Parts</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<Steel>5</Steel>
@@ -37,7 +37,7 @@
 			<li>Manufactured</li>
 		</thingCategories>
 		<modExtensions>
-			<li Class="O21Toolbox.ArtificialPawn.DefModExtension_RepairPartsProps"/>
+			<li Class="O21Toolbox.ArtificialPawn.DefModExtension_RepairPartsProps" />
 		</modExtensions>
 	</ThingDef>
 

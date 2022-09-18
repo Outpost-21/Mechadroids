@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef ParentName="ResourceBase">
@@ -38,17 +38,17 @@
 				<li>FabricationBench</li>
 				<li>O21_Mechanoid_Workbench</li>
 			</recipeUsers>
-            <researchPrerequisite>O21_Mechanoids_PowerCells</researchPrerequisite>
+			<researchPrerequisite>O21_Mechanoids_PowerCells</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<Chemfuel>2</Chemfuel>
-            <Plasteel>3</Plasteel>
+			<Plasteel>3</Plasteel>
 		</costList>
-        <modExtensions>
-            <li Class="O21Toolbox.HarmonyPatches.DefModExt_OutputFromEdible">
-                <outputThing>O21_MechanoidPowerCell_Empty</outputThing>
-            </li>
-        </modExtensions>
+		<modExtensions>
+			<li Class="O21Toolbox.HarmonyPatches.DefModExt_OutputFromEdible">
+				<outputThing>O21_MechanoidPowerCell_Empty</outputThing>
+			</li>
+		</modExtensions>
 		<thingCategories>
 			<li>Manufactured</li>
 		</thingCategories>
@@ -72,5 +72,5 @@
 			<li>Manufactured</li>
 		</thingCategories>
 	</ThingDef>
-	
+
 </Defs>

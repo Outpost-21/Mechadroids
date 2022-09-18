@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<AlienRace.BackstoryDef>
@@ -11,8 +11,7 @@
 		<spawnCategories>
 			<li>MechadroidAlpha</li>
 		</spawnCategories>
-		<workDisables>
-    	</workDisables>
+		<workDisables></workDisables>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
@@ -75,8 +74,7 @@
 		<spawnCategories>
 			<li>MechadroidAlpha</li>
 		</spawnCategories>
-		<workDisables>
-    	</workDisables>
+		<workDisables></workDisables>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
@@ -139,8 +137,7 @@
 		<spawnCategories>
 			<li>MechadroidAlpha</li>
 		</spawnCategories>
-		<workDisables>
-    	</workDisables>
+		<workDisables></workDisables>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
@@ -270,7 +267,7 @@
 			<li>MechadroidAlpha</li>
 		</spawnCategories>
 		<skillGains>
-            <li>
+			<li>
 				<defName>Crafting</defName>
 				<amount>4</amount>
 			</li>

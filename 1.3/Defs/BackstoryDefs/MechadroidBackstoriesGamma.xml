@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<AlienRace.BackstoryDef>
@@ -12,10 +12,10 @@
 			<li>MechadroidGamma</li>
 		</spawnCategories>
 		<workDisables>
-            <li>Violent</li>
-            <li>Animals</li>
-            <li>Mining</li>
-    	</workDisables>
+			<li>Violent</li>
+			<li>Animals</li>
+			<li>Mining</li>
+		</workDisables>
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
@@ -59,10 +59,10 @@
 			<li>MechadroidGamma</li>
 		</spawnCategories>
 		<workDisables>
-            <li>Violent</li>
-            <li>Animals</li>
-            <li>Mining</li>
-    	</workDisables>
+			<li>Violent</li>
+			<li>Animals</li>
+			<li>Mining</li>
+		</workDisables>
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
@@ -106,10 +106,10 @@
 			<li>MechadroidGamma</li>
 		</spawnCategories>
 		<workDisables>
-            <li>Violent</li>
-            <li>Animals</li>
-            <li>Mining</li>
-    	</workDisables>
+			<li>Violent</li>
+			<li>Animals</li>
+			<li>Mining</li>
+		</workDisables>
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
@@ -175,7 +175,7 @@
 			<li>MechadroidGamma</li>
 		</spawnCategories>
 		<skillGains>
-            <li>
+			<li>
 				<defName>Crafting</defName>
 				<amount>4</amount>
 			</li>
