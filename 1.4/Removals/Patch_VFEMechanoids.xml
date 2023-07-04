@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Mechanoids</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>Mechadroids_Mech_CombineComponents</defName>
+							<label>make mechanoid component</label>
+							<description>Combine 14 mechanoid parts into 1 mechanoid component.</description>
+							<jobString>Making mechanoid component.</jobString>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<effectWorking>Cook</effectWorking>
+							<soundWorking>Recipe_Machining</soundWorking>
+							<workAmount>2400</workAmount>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Mechadroids_MechanoidParts</li>
+										</thingDefs>
+									</filter>
+									<count>14</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>Mechadroids_MechanoidParts</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+							</products>
+							<workSkill>Crafting</workSkill>
+						</RecipeDef>
+
+						<RecipeDef>
+							<defName>Mechadroids_Mech_SplitComponents</defName>
+							<label>make mechanoid parts x14</label>
+							<description>Split 1 mechanoid component into 14 mechanoid parts.</description>
+							<jobString>Making mechanoid component.</jobString>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<effectWorking>Cook</effectWorking>
+							<soundWorking>Recipe_Machining</soundWorking>
+							<workAmount>2400</workAmount>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VFE_ComponentMechanoid</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>VFE_ComponentMechanoid</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<Mechadroids_MechanoidParts>14</Mechadroids_MechanoidParts>
+							</products>
+							<workSkill>Crafting</workSkill>
+						</RecipeDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="TableMachining"]/recipes</xpath>
+					<value>
+						<li>Mechadroids_Mech_CombineComponents</li>
+						<li>Mechadroids_Mech_SplitComponents</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

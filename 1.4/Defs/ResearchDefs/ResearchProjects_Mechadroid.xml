@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>Mechadroids</defName>
+		<label>Mechadroids</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef Name="MechadroidResearchBase" Abstract="True">
+		<tab>Mechadroids</tab>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="MechadroidResearchBase">
+		<defName>Mechadroids_Mechanoids_RepairKits</defName>
+		<label>Mechadroid Repair Kits</label>
+		<description>Fabricate mechadroid repair kits, used to fully repair mechadroids as a surgery option.</description>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="MechadroidResearchBase">
+		<defName>Mechadroids_Alphas</defName>
+		<label>Mechadroids: Alphas</label>
+		<description>Fabricate advanced robots from salvaged mechanoid materials. Alphas are a baseline for the units with no particular specialisation.</description>
+		<baseCost>4000</baseCost>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="MechadroidResearchBase">
+		<defName>Mechadroids_Gammas</defName>
+		<label>Mechadroids: Gammas</label>
+		<description>Fabricate advanced robots from salvaged mechanoid materials. Gammas are weaker but more intelligent variants.</description>
+		<baseCost>4000</baseCost>
+		<prerequisites>
+			<li>Mechadroids_Alphas</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="MechadroidResearchBase">
+		<defName>Mechadroids_Deltas</defName>
+		<label>Mechadroids: Deltas</label>
+		<description>Fabricate advanced robots from salvaged mechanoid materials. Deltas are a less intelligent but stronger variant.</description>
+		<baseCost>4000</baseCost>
+		<prerequisites>
+			<li>Mechadroids_Alphas</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

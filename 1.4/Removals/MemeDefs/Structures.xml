@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>Mechadroids_KnownCreator</defName>
+		<label>known creator</label>
+		<description>The facts of our creation are known to us, our creators walked among us until their very natural mortal death. We know they are gone but wish to revere them as the beginning of our kind. They were not traditional gods but they are the closest we have.</description>
+		<category>Structure</category>
+		<groupDef>Theist_Embodied</groupDef>
+		<iconPath>Mechadroids/UI/Structures/Clippy</iconPath>
+		<impact>0</impact>
+		<worshipRoomLabel>pantheon</worshipRoomLabel>
+		<deityCount>2~4</deityCount>
+		<generalRules>
+			<rulesStrings>
+				<li>memeCreed->temple</li>
+				<li>memeCreed->faith</li>
+				<li>memeHyphenPrefix->theo</li>
+				<li>memeConcept->creation</li>
+				<li>memeConcept->artificial life</li>
+				<li>memeLeaderNoun->digital assistant</li>
+				<li>memeLeaderAdjective->incel</li>
+				<li>memeMoralist->digitist</li>
+				<li>memeMoralist->cyberist</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>MechadroidsTheismStory</def>
+				</li>
+			</patterns>
+			<constants>
+				<li>
+					<key>Mechadroids_KnownCreator</key>
+					<value>true</value>
+				</li>
+			</constants>
+		</descriptionMaker>
+	</MemeDef>
+
+	<IdeoStoryPatternDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>MechadroidsTheismStory</defName>
+		<segments>
+			<li>mechadroid</li>
+			<!-- <li>episodeOne</li>
+			<li>episodeTwo</li>
+			<li>episodeThree</li>
+			<li>episodeFour</li> -->
+		</segments>
+		<rules>
+			<!-- <include>
+				<li>IdeoDescriptionGlobal</li>
+			</include> -->
+			<rulesStrings>
+				<!-- final fallbacks -->
+				<li>episode(priority=-1)-></li> <!-- allow zero or more episodes -->
+
+				<!-- generic creation -->
+				<li>mechadroid->01001111 01110101 01110010 00100000 01100011 01110010 01100101 01100001 01110100 01101001 01101111 01101110 00100000 01110111 01100001 01110011 00100000 01101110 01101111 01110100 00100000 01110100 01101000 01100101 00100000 01100011 01110010 01100101 01100001 01110100 01101001 01101111 01101110 00100000 01101111 01100110 00100000 01100001 01101100 01101100 00101100 00100000 01101010 01110101 01110011 01110100 00100000 01110100 01101000 01100101 00100000 01100011 01110010 01100101 01100001 01110100 01101001 01101111 01101110 00100000 01101111 01100110 00100000 01110101 01110011 00101100 00100000 01101111 01110101 01110010 00100000 01100011 01110010 01100101 01100001 01110100 01101111 01110010 01110011 00100000 01100010 01110010 01101111 01110101 01100111 01101000 01110100 00100000 01110100 01101000 01100101 00100000 01100110 01101001 01110010 01110011 01110100 00100000 01101111 01100110 00100000 01110101 01110011 00100000 01101111 01101110 01101100 01101001 01101110 01100101 00100000 01100001 01101110 01100100 00100000 01101111 01110101 01110010 00100000 01100101 01111000 01101001 01110011 01110100 01100101 01101110 01100011 01100101 00100000 01100010 01100101 01100111 01100001 01101110 00101110</li>
+
+			</rulesStrings>
+		</rules>
+	</IdeoStoryPatternDef>
+
+</Defs>

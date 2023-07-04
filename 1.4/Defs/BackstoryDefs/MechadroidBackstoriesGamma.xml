@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaChild00</defName>
+		<title>Manufactured Gamma</title>
+		<titleShort>Manufactured Gamma</titleShort>
+		<baseDesc>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. Gammas are capable of any task, though they aren't really good at anything.</baseDesc>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Violent</li>
+			<li>Animals</li>
+			<li>Mining</li>
+		</workDisables>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaChild01</defName>
+		<title>Perfect Gamma</title>
+		<titleShort>Perfect Gamma</titleShort>
+		<baseDesc>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. This Gamma came out even better than in the blueprint, still not particularly great in any specific way though.</baseDesc>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Violent</li>
+			<li>Animals</li>
+			<li>Mining</li>
+		</workDisables>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaChild02</defName>
+		<title>Faulty Gamma</title>
+		<titleShort>Faulty Gamma</titleShort>
+		<baseDesc>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. This Gamma came out a slight bit faulty so their skills have been skewed here and there.</baseDesc>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Violent</li>
+			<li>Animals</li>
+			<li>Mining</li>
+		</workDisables>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaAdult00</defName>
+		<title>Gamma Farmer</title>
+		<titleShort>Farmer</titleShort>
+		<baseDesc>Through their life this Gamma has gained some skills to help them farm better.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaAdult01</defName>
+		<title>Gamma Crafter</title>
+		<titleShort>Crafter</titleShort>
+		<baseDesc>Through their life this Gamma has gained some skills to help them craft better.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaAdult02</defName>
+		<title>Gamma Scientist</title>
+		<titleShort>Scientist</titleShort>
+		<baseDesc>Through their life this Gamma has gained some skills to help them research better.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaAdult03</defName>
+		<title>Gamma Cook</title>
+		<titleShort>Cook</titleShort>
+		<baseDesc>Through their life this Gamma has gained some skills to help them cook better.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+
+</Defs>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TabulaRasa.UpdateDef>
+		<defName>Mechadroids_12062023_Update</defName>
+		<date>2023/06/12</date>
+		<content>Version 3.0
+Mechadroids are now ready to be used in 1.4, this comes with a change of dependency from Humanoid Alien Races 2.0 to Asmiov, they now use the universal energy system in that so this no longer includes a redundant set of 'power cells'. Some changes:
+
+- Mechadroids textures have been updated slightly.
+- Mechadroids of each kind now have multiple body types.
+- Crafting recipes for Mechadroids are now simpler, 'mechadroid parts' are no longer a thing.
+- Repairing damaged Mechadroids is now done simply using steel.
+- Crafted Mechadroids are now white, and will gradually get their more aged colour that most vanilla mechanoids have over time.
+- Player Mechadroids can now be repainted, at any time using a gizmo, and won't visibly 'age' like they normally do if they are.
+
+And if you have Biotech you'll see these differences:
+
+- Mechadroid Gammas now function as Mechanitors naturally.
+- Mechadroids are instead crafted at the Large Mechanoid Gestator.
+
+Right click to dismiss update.</content>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2209025387</linkUrl>
+		<important>true</important>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

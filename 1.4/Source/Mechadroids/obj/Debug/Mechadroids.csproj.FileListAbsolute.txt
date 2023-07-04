@@ -1,0 +1,4 @@
+F:\RWModCategories\Neronix17\_BigMods\Mechadroids\1.4\Source\Mechadroids\obj\Debug\Mechadroids.csproj.AssemblyReference.cache
+F:\RWModCategories\Neronix17\_BigMods\Mechadroids\1.4\Source\Mechadroids\obj\Debug\Mechadroids.csproj.CoreCompileInputs.cache
+F:\RWModCategories\Neronix17\_BigMods\Mechadroids\1.4\Assemblies\Mechadroids.dll
+F:\RWModCategories\Neronix17\_BigMods\Mechadroids\1.4\Source\Mechadroids\obj\Debug\Mechadroids.dll

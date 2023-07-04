@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<Asimov.PawnDef ParentName="Mechadroids_BaseMechadroid">
+		<defName>Mechadroids_Delta</defName>
+		<label>Delta-Series Mechadroid</label>
+		<description>The first in an experimental line of mechadroids designed by a colonist in the inner rim. They use parts of disassembled mechanoids and as such share many of the same strengths and weaknesses. They have since developed their own personalities, settlements and culture, creating more of their kind.</description>
+		<!-- Start of Asimov Data -->
+		<pawnSettings>
+			<!-- Body -->
+			<headTypeWhitelist>
+				<li>Mechadroids_DeltaHead</li>
+			</headTypeWhitelist>
+			<bodyTypeWhitelist>
+				<li>Hulk</li>
+			</bodyTypeWhitelist>
+			<!-- Backstories -->
+			<restrictBackstoriesToRace>true</restrictBackstoriesToRace>
+			<restrictRaceToBackstories>true</restrictRaceToBackstories>
+			<backstoryWhitelist>
+				<li>MechadroidAlpha</li>
+			</backstoryWhitelist>
+		</pawnSettings>
+		<customGraphics>
+			<bodyPath>Mechadroids/Pawn/Mechadroids/</bodyPath>
+			<shaderType>CutoutComplex</shaderType>
+			<skinColorPairs>
+				<li>
+					<!-- Default Factory Colours -->
+					<colorOne>(255, 255, 255)</colorOne>
+					<colorTwo>(255, 255, 255)</colorTwo>
+					<weight>100</weight>
+				</li>
+			</skinColorPairs>
+		</customGraphics>
+		<comps>
+			<li Class="Asimov.CompProperties_Automaton">
+				<repairThings>
+					<li>Steel</li>
+				</repairThings>
+			</li>
+		</comps>
+		<!-- End of Asimov Data -->
+		<statBases>
+			<MarketValue>1750</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>0.8</baseHealthScale>
+		</race>
+		<butcherProducts>
+			<Plasteel>40</Plasteel>
+			<Asimov_Chargepack>3</Asimov_Chargepack>
+			<ComponentSpacer>6</ComponentSpacer>
+		</butcherProducts>
+	</Asimov.PawnDef>
+
+	<PawnKindDef>
+		<defName>Mechadroids_Delta</defName>
+		<label>delta series mechadroid</label>
+		<race>Mechadroids_Delta</race>
+		<combatPower>40</combatPower>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidDelta</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelTags Inherit="false" />
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>0</min>
+			<max>0</max>
+		</apparelMoney>
+		<techHediffsChance>0.0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags Inherit="false" />
+		<initialWillRange>0</initialWillRange>
+		<initialResistanceRange>30~40</initialResistanceRange>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<clearApparel>True</clearApparel>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<Asimov.AutomatonRecipeDef ParentName="AsimovAutomatonRecipeBase">
+		<defName>Mechadroids_MakeDelta</defName>
+		<label>make delta series mechadroid</label>
+		<description>Make a delta series mechadroid.</description>
+		<jobString>Making delta series mechadroid.</jobString>
+		<workAmount>15000</workAmount>
+		<costList>
+			<Plasteel>80</Plasteel>
+			<Asimov_Chargepack>6</Asimov_Chargepack>
+			<ComponentSpacer>12</ComponentSpacer>
+		</costList>
+		<researchPrerequisite>Mechadroids_Deltas</researchPrerequisite>
+		<pawnKind>Mechadroids_Delta</pawnKind>
+		<recipeIcon>OuterRim/Droid/B1_Preview</recipeIcon>
+	</Asimov.AutomatonRecipeDef>
+	
+</Defs>
