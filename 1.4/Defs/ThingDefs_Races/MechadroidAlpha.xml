@@ -15,11 +15,10 @@
 				<li>Male</li>
 			</bodyTypeWhitelist>
 			<!-- Backstories -->
-			<restrictBackstoriesToRace>true</restrictBackstoriesToRace>
-			<restrictRaceToBackstories>true</restrictRaceToBackstories>
-			<backstoryWhitelist>
+			<onlyRestrictedBackstories>true</onlyRestrictedBackstories>
+			<backstories>
 				<li>MechadroidAlpha</li>
-			</backstoryWhitelist>
+			</backstories>
 		</pawnSettings>
 		<customGraphics>
 			<bodyPath>Mechadroids/Pawn/Mechadroids/</bodyPath>
@@ -55,9 +54,18 @@
 		</customGraphics>
 		<comps>
 			<li Class="Asimov.CompProperties_Automaton">
-				<repairThings>
-					<li>Steel</li>
-				</repairThings>
+				<canUseRanged>true</canUseRanged>
+				<canUseMelee>true</canUseMelee>
+				<corpseEdible>false</corpseEdible>
+				<corpseRots>false</corpseRots>
+				<affectedByEMP>true</affectedByEMP>
+				<immuneToDisease>true</immuneToDisease>
+				<huntTarget>true</huntTarget>
+				<clearPassions>false</clearPassions>
+				<flattenSkills>false</flattenSkills>
+				<skillGainMulti>0.25</skillGainMulti>
+				<skillLossMulti>0.25</skillLossMulti>
+				<enableAllWorkTypes>true</enableAllWorkTypes>
 			</li>
 		</comps>
 		<!-- End of Asimov Data -->
@@ -159,20 +167,74 @@
 		</modExtensions>
 	</PawnKindDef>
 
-	<Asimov.AutomatonRecipeDef ParentName="AsimovAutomatonRecipeBase">
-		<defName>Mechadroids_MakeAlpha</defName>
-		<label>make alpha series mechadroid</label>
-		<description>Make a alpha series mechadroid.</description>
-		<jobString>Making alpha series mechadroid.</jobString>
-		<workAmount>15000</workAmount>
-		<costList>
-			<Plasteel>80</Plasteel>
-			<Asimov_Chargepack>6</Asimov_Chargepack>
-			<ComponentSpacer>12</ComponentSpacer>
-		</costList>
-		<researchPrerequisite>Mechadroids_Alphas</researchPrerequisite>
-		<pawnKind>Mechadroids_Alpha</pawnKind>
-		<recipeIcon>OuterRim/Droid/B1_Preview</recipeIcon>
-	</Asimov.AutomatonRecipeDef>
+	<ThingDef>
+		<defName>Mechadroids_Spawner_MechadroidAlpha</defName>
+		<label>alpha-series mechadroid</label>
+		<description>Creates a alpha-series mechadroid.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Alpha</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>550</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<comps>
+			<li Class="TabulaRasa.CompProperties_PawnSpawner">
+				<pawnKind>Mechadroids_CraftedMechadroidAlpha</pawnKind>
+				<newborn>true</newborn>
+			</li>
+		</comps>
+		<size>(1,1)</size>
+		<category>Building</category>
+		<pathCost>200</pathCost>
+		<passability>Standable</passability>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleRock</filthLeaving>
+		<hasInteractionCell>false</hasInteractionCell>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<repairEffect>Repair</repairEffect>
+		<useHitPoints>True</useHitPoints>
+		<selectable>true</selectable>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+	</ThingDef>
+
+	<PawnKindDef>
+		<defName>Mechadroids_CraftedMechadroidAlpha</defName>
+		<label>Alpha-Series Mechadroid</label>
+		<race>Mechadroids_Alpha</race>
+		<combatPower>40</combatPower>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidAlpha</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelTags Inherit="false" />
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>0</min>
+			<max>0</max>
+		</apparelMoney>
+		<techHediffsChance>0.0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags Inherit="false" />
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
+	</PawnKindDef>
 	
 </Defs>

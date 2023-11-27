@@ -11,11 +11,6 @@
 		<spawnCategories>
 			<li>MechadroidDelta</li>
 		</spawnCategories>
-		<workDisables>
-			<li>Intellectual</li>
-			<li>ManualSkilled</li>
-			<li>Caring</li>
-		</workDisables>
 		<skillGains>
 			<li>
 				<key>Shooting</key>
@@ -50,11 +45,6 @@
 		<spawnCategories>
 			<li>MechadroidDelta</li>
 		</spawnCategories>
-		<workDisables>
-			<li>Intellectual</li>
-			<li>ManualSkilled</li>
-			<li>Caring</li>
-		</workDisables>
 		<skillGains>
 			<li>
 				<key>Shooting</key>
@@ -89,11 +79,6 @@
 		<spawnCategories>
 			<li>MechadroidDelta</li>
 		</spawnCategories>
-		<workDisables>
-			<li>Intellectual</li>
-			<li>ManualSkilled</li>
-			<li>Caring</li>
-		</workDisables>
 		<skillGains>
 			<li>
 				<key>Shooting</key>

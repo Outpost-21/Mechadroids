@@ -3,8 +3,8 @@
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>Mechadroids_MechanoidRepairKit</defName>
-		<label>mechanoid repair kit</label>
-		<description>A repair kit containing the tools and materials, to fully restore a mechanoid/mechadroid to mint condition, from wear and tear to missing parts. Also refills coolant on the mechanoid/mechadroid.\n\nUsed as a operation.</description>
+		<label>mechadroid repair kit</label>
+		<description>A repair kit containing the tools and materials, to fully restore a mechadroid to mint condition, from wear and tear to missing parts. Also refills coolant on the mechadroid.\n\nUsed as via surgery operation.</description>
 		<graphicData>
 			<texPath>Mechadroids/Item/MechadroidRepairKit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

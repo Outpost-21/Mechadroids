@@ -162,6 +162,9 @@
 			<li>Advanced</li>
 			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
+		<techHediffsRequired>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Mechlink</li>
+		</techHediffsRequired>
 	</PawnKindDef>
 
 </Defs>

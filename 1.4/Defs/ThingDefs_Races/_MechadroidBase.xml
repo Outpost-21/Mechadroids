@@ -4,25 +4,18 @@
 	<Asimov.PawnDef ParentName="BasePawn" Name="Mechadroids_BaseMechadroid" Abstract="True">
 		<!-- Start of Asimov Data -->
 		<pawnSettings>
+			<immuneToAge>true</immuneToAge>
+			<generateRelations>false</generateRelations>
 			<!-- Styles -->
 			<allowHair>false</allowHair>
 			<allowBeards>false</allowBeards>
 			<allowTattoos>false</allowTattoos>
 			<!-- Traits -->
-			<restrictTraitsToRace>false</restrictTraitsToRace>
-			<restrictRaceTraits>true</restrictRaceTraits>
-			<!-- TODO: Add acceptable traits. -->
-			<traitWhitelist />
-			<traitCount>0~3</traitCount>
+			<onlyRestrictedTraits>true</onlyRestrictedTraits>
+			<traits />
 			<!-- Thoughts -->
-			<restrictThoughtsToRace>false</restrictThoughtsToRace>
-			<restrictRaceThoughts>true</restrictRaceThoughts>
-			<!-- TODO: Add acceptable thoughts. -->
-			<thoughtWhitelist />
-			<!-- Apparel -->
-			<restrictApparelToRace>false</restrictApparelToRace>
-			<restrictRaceApparel>false</restrictRaceApparel>
-			<apparelWhitelist />
+			<onlyRestrictedThoughts>true</onlyRestrictedThoughts>
+			<thoughts />
 		</pawnSettings>
 		<!-- End of Asimov Data -->
 		<statBases>
@@ -92,8 +85,10 @@
 			<li>RemoveBodyPart</li>
 		</recipes>
 		<comps>
-			<li Class="Asimov.CompProperties_PawnData" />
-			<li Class="Mechadroids.CompProperties_Mechadroid" />
+			<li Class="Asimov.CompProperties_RecolourablePawn">
+				<channelOne>true</channelOne>
+				<channelTwo>false</channelTwo>
+			</li>
 		</comps>
 		<modExtensions>
 			<li Class="Asimov.DefModExt_EnergyNeed" />

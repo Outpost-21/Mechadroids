@@ -11,11 +11,6 @@
 		<spawnCategories>
 			<li>MechadroidGamma</li>
 		</spawnCategories>
-		<workDisables>
-			<li>Violent</li>
-			<li>Animals</li>
-			<li>Mining</li>
-		</workDisables>
 		<skillGains>
 			<li>
 				<key>Cooking</key>
@@ -58,11 +53,6 @@
 		<spawnCategories>
 			<li>MechadroidGamma</li>
 		</spawnCategories>
-		<workDisables>
-			<li>Violent</li>
-			<li>Animals</li>
-			<li>Mining</li>
-		</workDisables>
 		<skillGains>
 			<li>
 				<key>Cooking</key>
@@ -105,11 +95,6 @@
 		<spawnCategories>
 			<li>MechadroidGamma</li>
 		</spawnCategories>
-		<workDisables>
-			<li>Violent</li>
-			<li>Animals</li>
-			<li>Mining</li>
-		</workDisables>
 		<skillGains>
 			<li>
 				<key>Cooking</key>

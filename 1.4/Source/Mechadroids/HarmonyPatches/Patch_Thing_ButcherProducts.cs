@@ -19,7 +19,7 @@ namespace Mechadroids
         [HarmonyPostfix]
         public static void Postfix(Thing __instance, ref IEnumerable<Thing> __result, float efficiency)
         {
-            if (__instance is Pawn pawn && pawn.RaceProps.IsMechanoid)
+            if (__instance is Pawn pawn && pawn.def.defName.Contains("Mechadroid"))
             {
                 __result = GenerateExtraProducts(__result, pawn, efficiency);
             }

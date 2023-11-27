@@ -13,14 +13,14 @@ namespace Mechadroids
     {
         public bool verboseLogging = false;
 
-        public int baseSpawnRateComponents = 1;
-        public int baseSpawnChancePersonaCore = 3;
+        public int baseSpawnRateComponents = 3;
+        public int baseSpawnChancePersonaCore = 1;
 
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_Values.Look(ref baseSpawnRateComponents, "baseSpawnRateComponents", 1);
-            Scribe_Values.Look(ref baseSpawnChancePersonaCore, "baseSpawnChancePersonaCore", 3);
+            Scribe_Values.Look(ref baseSpawnRateComponents, "baseSpawnRateComponents", 3);
+            Scribe_Values.Look(ref baseSpawnChancePersonaCore, "baseSpawnChancePersonaCore", 1);
         }
 
         public bool IsValidSetting(string input)

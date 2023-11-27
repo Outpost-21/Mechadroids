@@ -11,7 +11,6 @@
 		<spawnCategories>
 			<li>MechadroidAlpha</li>
 		</spawnCategories>
-		<workDisables></workDisables>
 		<skillGains>
 			<li>
 				<key>Shooting</key>
@@ -74,7 +73,6 @@
 		<spawnCategories>
 			<li>MechadroidAlpha</li>
 		</spawnCategories>
-		<workDisables></workDisables>
 		<skillGains>
 			<li>
 				<key>Shooting</key>
@@ -137,7 +135,6 @@
 		<spawnCategories>
 			<li>MechadroidAlpha</li>
 		</spawnCategories>
-		<workDisables></workDisables>
 		<skillGains>
 			<li>
 				<key>Shooting</key>

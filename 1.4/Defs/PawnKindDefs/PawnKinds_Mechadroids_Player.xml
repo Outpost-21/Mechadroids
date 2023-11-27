@@ -46,6 +46,9 @@
 		<defName>Mechadroids_MechadroidDeltaColonist</defName>
 		<label>mechadroid delta</label>
 		<race>Mechadroids_Delta</race>
+		<techHediffsRequired>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Mechlink</li>
+		</techHediffsRequired>
 	</PawnKindDef>
 
 </Defs>
