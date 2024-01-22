@@ -90,11 +90,17 @@
 					<def>MechanicalShoulder</def>
 					<customLabel>left shoulder</customLabel>
 					<coverage>0.17</coverage>
+					<groups>
+						<li>Shoulders</li>
+					</groups>
 					<parts>
 						<li>
 							<def>MechanicalArm</def>
 							<customLabel>left arm</customLabel>
 							<coverage>0.85</coverage>
+							<groups>
+								<li>Arms</li>
+							</groups>
 							<parts>
 								<li>
 									<def>MechanicalHand</def>
@@ -149,11 +155,17 @@
 					<def>MechanicalShoulder</def>
 					<customLabel>right mechanical shoulder</customLabel>
 					<coverage>0.17</coverage>
+					<groups>
+						<li>Shoulders</li>
+					</groups>
 					<parts>
 						<li>
 							<def>MechanicalArm</def>
 							<customLabel>right arm</customLabel>
 							<coverage>0.85</coverage>
+							<groups>
+								<li>Arms</li>
+							</groups>
 							<parts>
 								<li>
 									<def>MechanicalHand</def>
