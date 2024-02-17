@@ -7,6 +7,7 @@
 			<immuneToAge>true</immuneToAge>
 			<generateRelations>false</generateRelations>
 			<hasGrowthMoments>false</hasGrowthMoments>
+			<colonyCaresIfDead>false</colonyCaresIfDead>
 			<!-- Styles -->
 			<allowHair>false</allowHair>
 			<allowBeards>false</allowBeards>
