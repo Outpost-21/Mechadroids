@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 	<Asimov.PawnDef ParentName="Mechadroids_BaseMechadroid">
@@ -58,7 +58,6 @@
 				<canUseMelee>true</canUseMelee>
 				<corpseEdible>false</corpseEdible>
 				<corpseRots>false</corpseRots>
-				<affectedByEMP>true</affectedByEMP>
 				<immuneToDisease>true</immuneToDisease>
 				<huntTarget>true</huntTarget>
 				<clearPassions>false</clearPassions>
@@ -236,5 +235,5 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
 	</PawnKindDef>
-
+	
 </Defs>

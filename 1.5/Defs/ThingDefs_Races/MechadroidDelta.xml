@@ -1,23 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 	<Asimov.PawnDef ParentName="Mechadroids_BaseMechadroid">
-		<defName>Mechadroids_Alpha</defName>
-		<label>Alpha-Series Mechadroid</label>
-		<description>The first in an experimental line of mechadroids designed by a colonist in the inner rim. They use parts of disassembled mechanoids and as such share many of the same strengths and weaknesses. They have since developed their own personalities, settlements and culture, creating more of their kind.</description>
+		<defName>Mechadroids_Delta</defName>
+		<label>Delta-Series Mechadroid</label>
+		<description>A later design of Mechadroid, presumed to be created by the Alphas once they developed their own settlements as a means to protect themselves better.</description>
 		<!-- Start of Asimov Data -->
 		<pawnSettings>
 			<!-- Body -->
 			<headTypeWhitelist>
-				<li>Mechadroids_AlphaHead</li>
+				<li>Mechadroids_DeltaHead</li>
 			</headTypeWhitelist>
 			<bodyTypeWhitelist>
-				<li>Male</li>
+				<li>Hulk</li>
 			</bodyTypeWhitelist>
+			<!-- Backstories -->
 			<!-- Backstories -->
 			<onlyRestrictedBackstories>true</onlyRestrictedBackstories>
 			<backstories>
-				<li>MechadroidAlpha</li>
+				<li>MechadroidDelta</li>
 			</backstories>
 		</pawnSettings>
 		<customGraphics>
@@ -30,26 +31,6 @@
 					<colorTwo>(255, 255, 255)</colorTwo>
 					<weight>100</weight>
 				</li>
-				<!-- <li>
-					<colorOne>(161, 96, 92)</colorOne>
-					<colorTwo>(255, 255, 255)</colorTwo>
-					<weight>100</weight>
-				</li>
-				<li>
-					<colorOne>(107, 148, 95)</colorOne>
-					<colorTwo>(255, 255, 255)</colorTwo>
-					<weight>100</weight>
-				</li>
-				<li>
-					<colorOne>(98, 138, 156)</colorOne>
-					<colorTwo>(255, 255, 255)</colorTwo>
-					<weight>100</weight>
-				</li>
-				<li>
-					<colorOne>(129, 98, 150)</colorOne>
-					<colorTwo>(255, 255, 255)</colorTwo>
-					<weight>100</weight>
-				</li> -->
 			</skinColorPairs>
 		</customGraphics>
 		<comps>
@@ -58,13 +39,12 @@
 				<canUseMelee>true</canUseMelee>
 				<corpseEdible>false</corpseEdible>
 				<corpseRots>false</corpseRots>
-				<affectedByEMP>true</affectedByEMP>
 				<immuneToDisease>true</immuneToDisease>
 				<huntTarget>true</huntTarget>
 				<clearPassions>false</clearPassions>
 				<flattenSkills>false</flattenSkills>
 				<skillGainMulti>0.25</skillGainMulti>
-				<skillLossMulti>0.25</skillLossMulti>
+				<skillLossMulti>0.5</skillLossMulti>
 				<enableAllWorkTypes>true</enableAllWorkTypes>
 			</li>
 		</comps>
@@ -131,9 +111,9 @@
 	</Asimov.PawnDef>
 
 	<PawnKindDef>
-		<defName>Mechadroids_Alpha</defName>
-		<label>alpha series mechadroid</label>
-		<race>Mechadroids_Alpha</race>
+		<defName>Mechadroids_Delta</defName>
+		<label>delta series mechadroid</label>
+		<race>Mechadroids_Delta</race>
 		<combatPower>40</combatPower>
 		<isFighter>false</isFighter>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -142,7 +122,7 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>MechadroidAlpha</li>
+					<li>MechadroidDelta</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -168,9 +148,9 @@
 	</PawnKindDef>
 
 	<ThingDef>
-		<defName>Mechadroids_Spawner_MechadroidAlpha</defName>
-		<label>alpha-series mechadroid</label>
-		<description>Creates a alpha-series mechadroid.</description>
+		<defName>Mechadroids_Spawner_MechadroidDelta</defName>
+		<label>delta-series mechadroid</label>
+		<description>Creates a delta-series mechadroid.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Alpha</texPath>
@@ -183,7 +163,7 @@
 		</statBases>
 		<comps>
 			<li Class="TabulaRasa.CompProperties_PawnSpawner">
-				<pawnKind>Mechadroids_CraftedMechadroidAlpha</pawnKind>
+				<pawnKind>Mechadroids_CraftedMechadroidDelta</pawnKind>
 				<newborn>true</newborn>
 			</li>
 		</comps>
@@ -206,9 +186,9 @@
 	</ThingDef>
 
 	<PawnKindDef>
-		<defName>Mechadroids_CraftedMechadroidAlpha</defName>
-		<label>Alpha-Series Mechadroid</label>
-		<race>Mechadroids_Alpha</race>
+		<defName>Mechadroids_CraftedMechadroidDelta</defName>
+		<label>Deltas-Series Mechadroid</label>
+		<race>Mechadroids_Delta</race>
 		<combatPower>40</combatPower>
 		<isFighter>false</isFighter>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -217,7 +197,7 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>MechadroidAlpha</li>
+					<li>MechadroidDelta</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -236,5 +216,5 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>10~17</initialResistanceRange>
 	</PawnKindDef>
-
+	
 </Defs>

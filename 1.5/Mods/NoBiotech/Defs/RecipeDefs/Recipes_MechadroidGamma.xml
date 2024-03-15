@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef ParentName="BaseMechadroidRecipe">
+		<defName>Mechadroids_Make_MechadroidGamma</defName>
+		<label>make gamma-series mechadroid</label>
+		<description>Make an gamma-series mechadroid.</description>
+		<jobString>Making gamma-series mechadroid.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Asimov_Chargepack</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Asimov_Chargepack</li>
+				<li>ComponentSpacer</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mechadroids_Spawner_MechadroidGamma>1</Mechadroids_Spawner_MechadroidGamma>
+		</products>
+		<researchPrerequisite>Mechadroids_Gammas</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>
