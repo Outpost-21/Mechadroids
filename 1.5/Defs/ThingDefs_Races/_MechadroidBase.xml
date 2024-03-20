@@ -39,7 +39,7 @@
 			<thinkTreeMain>Humanlike</thinkTreeMain>
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
-			<renderTree>Mechadroids_Mechadroid</renderTree>
+			<renderTree>Asimov_Automaton</renderTree>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>2500</lifeExpectancy>
 			<leatherDef>Leather_Human</leatherDef>
