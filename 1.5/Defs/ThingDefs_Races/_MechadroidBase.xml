@@ -87,6 +87,8 @@
 			</hediffGiverSets>
 		</race>
 		<recipes>
+			<li>Mechadroids_MechanoidRepairKit</li>
+			<li>Mechadroids_ShutDownMechadroid</li>
 			<li>RemoveBodyPart</li>
 		</recipes>
 		<comps>

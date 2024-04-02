@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- <RecipeDef>
+	<RecipeDef>
 		<defName>Mechadroids_ShutDownMechadroid</defName>
 		<label>shut down and disassemble</label>
 		<description>Shuts down a mechadroid and disassembles for materials.</description>
@@ -14,7 +14,7 @@
 		<isViolation>true</isViolation>
 		<anesthetize>false</anesthetize>
 		<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
-	</RecipeDef> -->
+	</RecipeDef>
 
 	<RecipeDef>
 		<defName>Mechadroids_MechanoidRepairKit</defName>
