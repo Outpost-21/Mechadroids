@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="TableMachining"]/recipes</xpath>
+		<value>
+			<li>Mechadroids_Make_MechadroidAlpha</li>
+			<li>Mechadroids_Make_MechadroidDelta</li>
+			<li>Mechadroids_Make_MechadroidGamma</li>
+		</value>
+	</Operation>
+
+</Patch>
