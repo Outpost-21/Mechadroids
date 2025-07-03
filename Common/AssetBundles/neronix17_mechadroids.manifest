@@ -1,0 +1,83 @@
+ManifestFileVersion: 0
+CRC: 1295742383
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fa884f3e886c0f6747c0d512866fb7f6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fa884f3e886c0f6747c0d512866fb7f6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Gamma_south.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Alpha_southm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Item/PowerCell/PowerCell_a.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Gamma_northm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Gamma_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/ModIcon.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Gamma_southm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Building/Shuttle.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Delta_northm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Gamma/Normal_south.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Delta/Naked_Hulk_south.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Alpha/Naked_Male_south.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Gamma/Normal_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Gamma_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Delta/Normal_south.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Alpha_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Item/MechanoidParts/MechanoidParts_b.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Item/EmptyPowerCell/EmptyPowerCell_b.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/World/TownRough.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Building/MechadroidBench__south.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Male_south.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Alpha_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Alpha/Naked_Male_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Item/MechanoidParts/MechanoidParts_c.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Male_eastm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Delta_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Item/MechadroidRepairKit.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Delta_southm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Alpha/Normal_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Hulk_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Delta/Naked_Hulk_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Hulk_eastm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Delta_eastm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Item/PowerCell/PowerCell_b.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Gamma/Normal_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Male_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Male_southm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Item/EmptyPowerCell/EmptyPowerCell_c.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Item/MechanoidParts/MechanoidParts_a.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Item/EmptyPowerCell/EmptyPowerCell_a.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/UI/Cultures/Mechanexian.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Alpha/Normal_south.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Delta/Naked_Hulk_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/World/Town.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Delta/Normal_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Hulk_northm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Alpha_south.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Hulk_southm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Delta/Normal_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Building/MechadroidBench_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Alpha_northm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Item/PowerCell/PowerCell_c.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Male_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Alpha/Naked_Male_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Building/MechadroidBench_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Male_northm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Hulk_north.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/UI/Structures/Clippy.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Naked_Hulk_south.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Delta_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Gamma_eastm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Alpha/Normal_east.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Alpha_eastm.png
+- Assets/Data/Neronix17.Mechadroids/Textures/Mechadroids/Pawn/Mechadroids/Delta_south.png
+Dependencies: []
