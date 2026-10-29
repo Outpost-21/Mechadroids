@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="BaseMechadroidRecipe" ParentName="BaseMechanoidRecipe" Abstract="True">
+		<gestationCycles>8</gestationCycles>
+		<workAmount>10000</workAmount>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<Asimov.PawnDef ParentName="Mechadroids_BaseMechadroid">
+		<defName>Mechadroids_Gamma</defName>
+		<label>Gamma-Series Mechadroid</label>
+		<description>A later design of Mechadroid, presumed to be created at some point by the Alphas as a form of leader, or maybe just as a smarter version of themselves to handle their advancement.</description>
+		<!-- Start of Asimov Data -->
+		<pawnSettings>
+			<!-- Body -->
+			<headTypeWhitelist>
+				<li>Mechadroids_GammaHead</li>
+			</headTypeWhitelist>
+			<bodyTypeWhitelist>
+				<li>Male</li>
+			</bodyTypeWhitelist>
+			<!-- Backstories -->
+			<onlyRestrictedBackstories>true</onlyRestrictedBackstories>
+			<backstories>
+				<li>MechadroidGamma</li>
+			</backstories>
+		</pawnSettings>
+		<customGraphics>
+			<bodyPath>Mechadroids/Pawn/Mechadroids/</bodyPath>
+			<shaderType>CutoutComplex</shaderType>
+			<skinColorPairs>
+				<li>
+					<!-- Default Factory Colours -->
+					<colorOne>(255, 255, 255)</colorOne>
+					<colorTwo>(255, 255, 255)</colorTwo>
+					<weight>100</weight>
+				</li>
+			</skinColorPairs>
+		</customGraphics>
+		<comps>
+			<li Class="Asimov.CompProperties_Automaton">
+				<canUseRanged>true</canUseRanged>
+				<canUseMelee>true</canUseMelee>
+				<corpseEdible>false</corpseEdible>
+				<corpseRots>false</corpseRots>
+				<immuneToDisease>true</immuneToDisease>
+				<huntTarget>true</huntTarget>
+				<clearPassions>false</clearPassions>
+				<flattenSkills>false</flattenSkills>
+				<skillGainMulti>1</skillGainMulti>
+				<skillLossMulti>0.1</skillLossMulti>
+				<enableAllWorkTypes>true</enableAllWorkTypes>
+			</li>
+		</comps>
+		<!-- End of Asimov Data -->
+		<statBases>
+			<MarketValue>1750</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>0.8</baseHealthScale>
+		</race>
+		<butcherProducts>
+			<Plasteel>40</Plasteel>
+			<Asimov_Chargepack>3</Asimov_Chargepack>
+			<ComponentSpacer>6</ComponentSpacer>
+		</butcherProducts>
+	</Asimov.PawnDef>
+
+	<PawnKindDef>
+		<defName>Mechadroids_Gamma</defName>
+		<label>gamma series mechadroid</label>
+		<race>Mechadroids_Gamma</race>
+		<combatPower>40</combatPower>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidGamma</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelTags Inherit="false" />
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>0</min>
+			<max>0</max>
+		</apparelMoney>
+		<techHediffsChance>0.0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags Inherit="false" />
+		<techHediffsRequired>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Mechlink</li>
+		</techHediffsRequired>
+		<initialWillRange>0</initialWillRange>
+		<initialResistanceRange>30~40</initialResistanceRange>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<clearApparel>True</clearApparel>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<ThingDef>
+		<defName>Mechadroids_Spawner_MechadroidGamma</defName>
+		<label>gamma-series mechadroid</label>
+		<description>Creates a gamma-series mechadroid.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Alpha</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>550</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<comps>
+			<li Class="TabulaRasa.CompProperties_PawnSpawner">
+				<pawnKind>Mechadroids_CraftedMechadroidGamma</pawnKind>
+				<newborn>true</newborn>
+			</li>
+		</comps>
+		<size>(1,1)</size>
+		<category>Building</category>
+		<pathCost>200</pathCost>
+		<passability>Standable</passability>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleRock</filthLeaving>
+		<hasInteractionCell>false</hasInteractionCell>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<repairEffect>Repair</repairEffect>
+		<useHitPoints>True</useHitPoints>
+		<selectable>true</selectable>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+	</ThingDef>
+
+	<PawnKindDef>
+		<defName>Mechadroids_CraftedMechadroidGamma</defName>
+		<label>Gammas-Series Mechadroid</label>
+		<race>Mechadroids_Gamma</race>
+		<combatPower>40</combatPower>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MechadroidGamma</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelTags Inherit="false" />
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>0</min>
+			<max>0</max>
+		</apparelMoney>
+		<techHediffsChance>0.0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags Inherit="false" />
+		<techHediffsRequired>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Mechlink</li>
+		</techHediffsRequired>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>

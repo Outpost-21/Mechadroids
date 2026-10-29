@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\RWModCategories\\Neronix17\\_BigMods\\Mechadroids\\1.7\\Source\\Mechadroids\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB677FC4-2420-D449-0399-641E1C932D8F}|Mechadroids.csproj|g:\\rwmodcategories\\neronix17\\_bigmods\\mechadroids\\1.7\\source\\mechadroids\\mechadroidsmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB677FC4-2420-D449-0399-641E1C932D8F}|Mechadroids.csproj|solutionrelative:mechadroidsmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\RWModCategories\\Neronix17\\_BigMods\\Mechadroids\\1.7\\Source\\Mechadroids\\obj\\Debug\\Mechadroids.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\Mechadroids.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB677FC4-2420-D449-0399-641E1C932D8F}|Mechadroids.csproj|g:\\rwmodcategories\\neronix17\\_bigmods\\mechadroids\\1.7\\source\\mechadroids\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB677FC4-2420-D449-0399-641E1C932D8F}|Mechadroids.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mechadroids.AssemblyInfo.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\_BigMods\\Mechadroids\\1.7\\Source\\Mechadroids\\obj\\Debug\\Mechadroids.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\Mechadroids.AssemblyInfo.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\_BigMods\\Mechadroids\\1.7\\Source\\Mechadroids\\obj\\Debug\\Mechadroids.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\Mechadroids.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T16:44:45.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MechadroidsMod.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\_BigMods\\Mechadroids\\1.7\\Source\\Mechadroids\\MechadroidsMod.cs",
+              "RelativeDocumentMoniker": "MechadroidsMod.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\_BigMods\\Mechadroids\\1.7\\Source\\Mechadroids\\MechadroidsMod.cs",
+              "RelativeToolTip": "MechadroidsMod.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwCEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T16:44:16.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\_BigMods\\Mechadroids\\1.7\\Source\\Mechadroids\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\_BigMods\\Mechadroids\\1.7\\Source\\Mechadroids\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T16:44:10.088Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

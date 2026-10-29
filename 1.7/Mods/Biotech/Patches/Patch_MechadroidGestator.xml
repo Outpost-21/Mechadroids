@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="LargeMechGestator"]/recipes</xpath>
+		<value>
+			<li>Mechadroids_ResurrectMechadroid</li>
+			<li>Mechadroids_Alpha</li>
+			<li>Mechadroids_Delta</li>
+			<li>Mechadroids_Gamma</li>
+		</value>
+	</Operation>
+
+</Patch>

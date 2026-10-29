@@ -21,6 +21,7 @@
 		</pawnSettings>
 		<!-- End of Asimov Data -->
 		<statBases>
+      		<MoveSpeed>4.6</MoveSpeed>
 			<Flammability>0.1</Flammability>
 			<ComfyTemperatureMin>-250</ComfyTemperatureMin>
 			<ComfyTemperatureMax>250</ComfyTemperatureMax>

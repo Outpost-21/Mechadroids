@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RulePackDef>
+		<defName>Mechadroids_NameGenerator_Mechadroid</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Adjective] [Noun]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Adjective</keyword>
+					<path>Mechadroid/Adjectives</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Noun</keyword>
+					<path>Mechadroid/Nouns</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+</Defs>

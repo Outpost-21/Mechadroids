@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Mechadroids_Alpha</defName>
+		<label>gestate alpha-series mechadroid</label>
+		<description>Gestate alpha-series mechadroid.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mechadroids_Alpha</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>120</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>120</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Asimov_Chargepack</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreHigh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Asimov_Chargepack</li>
+				<li>ComponentSpacer</li>
+				<li>Plasteel</li>
+				<li>SubcoreHigh</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mechadroids_Spawner_MechadroidAlpha>1</Mechadroids_Spawner_MechadroidAlpha>
+		</products>
+		<researchPrerequisite>Mechadroids_Alphas</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

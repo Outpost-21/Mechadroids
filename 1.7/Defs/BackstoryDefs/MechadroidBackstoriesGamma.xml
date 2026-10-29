@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaChild00</defName>
+		<title>Manufactured Gamma</title>
+		<titleShort>Manufactured Gamma</titleShort>
+		<description>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. Gammas are capable of any task, though they aren't really good at anything.</description>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<Cooking>3</Cooking>
+			<Plants>3</Plants>
+			<Crafting>3</Crafting>
+			<Artistic>3</Artistic>
+			<Medicine>4</Medicine>
+			<Social>4</Social>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaChild01</defName>
+		<title>Perfect Gamma</title>
+		<titleShort>Perfect Gamma</titleShort>
+		<description>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. This Gamma came out even better than in the blueprint, still not particularly great in any specific way though.</description>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<Cooking>4</Cooking>
+			<Plants>4</Plants>
+			<Crafting>4</Crafting>
+			<Artistic>4</Artistic>
+			<Medicine>6</Medicine>
+			<Social>6</Social>
+			<Intellectual>6</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaChild02</defName>
+		<title>Faulty Gamma</title>
+		<titleShort>Faulty Gamma</titleShort>
+		<description>Mechadroids are not born, they are made, subtle imperfections result in various traits in their personality but their initial skills tend to be rather specific. This Gamma came out a slight bit faulty so their skills have been skewed here and there.</description>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<Cooking>3</Cooking>
+			<Plants>3</Plants>
+			<Crafting>3</Crafting>
+			<Artistic>4</Artistic>
+			<Medicine>1</Medicine>
+			<Social>3</Social>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaAdult00</defName>
+		<title>Gamma Farmer</title>
+		<titleShort>Farmer</titleShort>
+		<description>Through their life this Gamma has gained some skills to help them farm better.</description>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<Plants>4</Plants>
+			<Animals>4</Animals>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaAdult01</defName>
+		<title>Gamma Crafter</title>
+		<titleShort>Crafter</titleShort>
+		<description>Through their life this Gamma has gained some skills to help them craft better.</description>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<Crafting>4</Crafting>
+			<Artistic>4</Artistic>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaAdult02</defName>
+		<title>Gamma Scientist</title>
+		<titleShort>Scientist</titleShort>
+		<description>Through their life this Gamma has gained some skills to help them research better.</description>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>BackstoryGammaAdult03</defName>
+		<title>Gamma Cook</title>
+		<titleShort>Cook</titleShort>
+		<description>Through their life this Gamma has gained some skills to help them cook better.</description>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MechadroidGamma</li>
+		</spawnCategories>
+		<skillGains>
+			<Cooking>6</Cooking>
+		</skillGains>
+	</BackstoryDef>
+
+</Defs>
