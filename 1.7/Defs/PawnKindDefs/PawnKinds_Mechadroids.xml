@@ -6,18 +6,16 @@
 		<defaultFactionType>Mechadroids_MechadroidCollective</defaultFactionType>
 		<chemicalAddictionChance>0.0</chemicalAddictionChance>
 		<backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
-		<invNutrition>2.55</invNutrition>
-		<invFoodDef>Asimov_Chargepack</invFoodDef>
 		<apparelTags>
 			<li>IndustrialBasic</li>
 			<li>IndustrialAdvanced</li>
 		</apparelTags>
 		<inventoryOptions>
-			<skipChance>0.95</skipChance>
+			<skipChance>0.5</skipChance>
 			<subOptionsChooseOne>
 				<li>
-					<thingDef>Asimov_Chargepack_Empty</thingDef>
-					<countRange>-4~6</countRange>
+					<thingDef>Asimov_Chargepack</thingDef>
+					<countRange>0~6</countRange>
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
